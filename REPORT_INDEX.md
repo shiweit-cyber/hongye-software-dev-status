@@ -1,0 +1,45 @@
+# REPORT_INDEX
+
+## 时间
+2026-06-06 17:35:02
+
+## 最新报告文件
+```text
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Auto_Test_Latest_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Auto_Work_Latest_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Field_Analysis_20260606_140429.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_GitHub_First_Push_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Auto_Dev_Center_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Auto_Mode_Import_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Auto_Scan_And_PDF_Check_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Field_Analysis_Work_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Foreground_One_Round_Diagnose_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Git_Bridge_Run_Once_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Quote_Project_Reposition_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Reverse_Engineer_Work_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Quantity_List_Auto_Demo_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Quantity_List_Full_Disk_Scan_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Reverse_Engineer_Unpriced_Quantity_Schema_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Template_Field_Analysis_Report.md
+```
+
+## 最新 Git 提交
+```text
+0be31a5 hongye_git_bridge_run_once_update
+540f6e1 diagnose_hongye_foreground_one_round
+ac5956b hongye_autonomous_dev_loop_update
+f1bca4c hongye_autonomous_dev_loop_update
+86e9c35 hongye_autonomous_dev_loop_update
+```
+
+## 当前 Git 状态
+```text
+ M README.md
+?? "04_AI\344\272\244\346\216\245/gpt_bridge/REPORT_INDEX.md"
+?? "04_AI\344\272\244\346\216\245/node_reports/Mac_Auto_Test_Latest_Report.md"
+?? "04_AI\344\272\244\346\216\245/node_reports/Mac_Auto_Work_Latest_Report.md"
+?? "04_AI\344\272\244\346\216\245/node_reports/Mac_GitHub_First_Push_Report.md"
+?? 07_scripts/hongye_sync_gpt_bridge_to_public.sh
+?? 07_scripts/net_speed_test.py
+?? 07_scripts/net_speed_web.py
+```
