@@ -1,41 +1,38 @@
 # ASK GPT - Hongye Quote Generator
 
 ## 时间
-2026-06-06 18:25:58
+2026-06-06 19:05:51
 
 ## 当前模式
 Git 链接稳定版，不使用 OpenAI API。
 
 ## 本轮状态
-真实宏业定额数据库结构扫描 V1 已完成。
+真实定额匹配接口 V2 雏形已完成。
 
 ## 本轮结果
-- 候选文件数：21
-- 数据类型：Excel 16、旧版 Excel 1、SQLite/DB3 4
-- 结构报告：04_AI交接/node_reports/Mac_Hongye_Quota_DB_Structure_Scan_Report.md
-- 脱敏结构 JSON：05_字段映射/hongye_quota_db_structure_scan_v1.json
-- 本轮只读取结构：表名、字段名、字段类型、行数统计
-- 未导出真实价格数据
-- 未提交数据库文件
+- 匹配成功记录数：2
+- 多候选匹配数量：2
+- 需要人工复核数量：2
+- 匹配报告：04_AI交接/node_reports/Mac_Hongye_Quota_Match_V2_Report.md
+- 匹配脚本：07_scripts/match_hongye_quota_v2.py
+- 本地匹配结果：output/hongye_quota_match_result_v2.json（不提交）
+- 本地 V2 匹配草稿：output/宏业标准版报价清单草稿_v2_matched.xlsx（不提交）
 
-## 关键发现
-SQLite/DB3 中发现可用于真实定额匹配的字段：
-- 定额编号类：debh
-- 定额名称类：demc / xmmc
-- 单位类：dw
-- 人工类：rgf
-- 材料类：clf
-- 机械类：jxf
-- 章节/分部类：fbmc / mc
+## 关键能力
+- 支持多候选匹配
+- 输出 match_score / match_confidence / match_reasons
+- 标记 needs_manual_review
+- 使用结构 JSON 中的字段提示：debh / demc / xmmc / dw / rgf / clf / jxf
+- 本轮仍使用占位定额数据，不读取真实价格
 
 ## 请求 GPT 判断
-请 GPT 判断下一步是否进入“真实定额匹配接口 V2”。
+请 GPT 判断下一步最小闭环。
 
-建议下一轮最小闭环：
-1. 只基于结构 JSON 建立字段映射配置。
-2. 读取 DB3 时只做匹配查询，不批量导出价格库。
-3. 生成多候选匹配结果，带置信度和人工复核标记。
-4. 输出本地 `output/` 测试文件，但不提交。
+建议优先级：
+1. 是否允许进入“真实 DB3 查询型匹配 V3”：只按关键词查询少量候选，不批量导出价格库。
+2. 建立字段映射配置文件，把 debh/demc/xmmc/dw/rgf/clf/jxf 映射到内部字段。
+3. 增强人工复核表：显示前三候选、置信度差距、复核原因。
+4. 等唐老板提供标准无价工程量清单后做真实输入验证。
 
 ## 安全边界
 - 不提交原始 XLSX

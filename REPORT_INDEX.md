@@ -1,11 +1,10 @@
 # REPORT_INDEX
 
 ## 时间
-2026-06-06 18:31:14
+2026-06-06 19:07:14
 
 ## 最新报告文件
 ```text
-/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Field_Analysis_20260606_140429.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_GitHub_First_Push_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Auto_Dev_Center_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Auto_Mode_Import_Report.md
@@ -15,6 +14,7 @@
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Git_Bridge_Run_Once_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Quota_DB_Structure_Scan_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Quota_Match_V1_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Quota_Match_V2_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Quote_Draft_V1_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Quote_Draft_V1_Styled_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Quote_Project_Reposition_Report.md
@@ -29,11 +29,11 @@
 
 ## 最新 Git 提交
 ```text
+01eca21 add_hongye_quota_match_v2
 3b188eb scan_hongye_quota_db_structure_v1
 bf0956c add_hongye_quota_match_v1_and_quote_v2
 0ec648f prepare_hongye_quote_v2
 c6e9fc8 style_hongye_quote_draft_v1
-eec97c8 add_hongye_quote_draft_v1
 ```
 
 ## 当前 Git 状态
