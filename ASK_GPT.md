@@ -1,28 +1,29 @@
 # ASK GPT - Hongye Quote Generator
 
 ## 时间
-2026-06-06 17:47:45
+2026-06-06 17:52:08
 
 ## 当前模式
 Git 链接稳定版，不使用 OpenAI API。
 
 ## 本轮状态
-报价清单 Excel 样式优化已完成，字段映射规则已强化。
+宏业标准版报价清单 V2 准备完成。
 
 ## 本轮结果
-- 生成记录数：2
-- 输出文件：output/宏业标准版报价清单草稿_v1.xlsx（不提交 GitHub）
-- 报告：04_AI交接/node_reports/Mac_Hongye_Quote_Draft_V1_Styled_Report.md
-- 脚本：07_scripts/generate_hongye_quote_draft_v1.py
-- 字段映射脚本：07_scripts/standardize_unpriced_quantity_v1.py
+- 标准化 JSON 记录数：2
+- 核心字段缺失记录数：0
+- 是否可生成 V2 草稿：是
+- 报告：04_AI交接/node_reports/Mac_Hongye_Quote_V2_Prepare_Report.md
+- V2 准备脚本：07_scripts/prepare_hongye_quote_v2.py
+- 定额数据库扫描计划：05_字段映射/hongye_quota_db_scan_plan_v1.json
 
 ## 请求 GPT 判断
 请 GPT 给出下一步最小闭环任务。
 
 建议优先级：
-1. 唐老板补充标准无价工程量清单后，做真实输入验证。
-2. 准备宏业定额数据库结构扫描，但暂不提交数据库。
-3. 设计定额匹配接口 V1，用占位数据替代真实数据库。
+1. 设计定额匹配接口 V1，用本地占位定额数据模拟匹配，不读取真实数据库。
+2. 唐老板提供标准无价工程量清单后做真实输入验证。
+3. 准备宏业定额数据库结构扫描脚本，但默认只输出结构报告，不提交数据库。
 4. 继续强化字段映射规则。
 
 ## 安全边界
