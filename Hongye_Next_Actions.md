@@ -1,6 +1,7 @@
-﻿# Hongye Next Actions
+# Hongye Next Actions
 
-1. Publish whitelist status files to the public status repository.
-2. Confirm whether Windows and Mac can both read the public status repository.
-3. Confirm the private main repository location.
-4. Continue using public status updates for GPT handoff.
+## 下一步
+1. Mac 继续完善空白样例的最小自动测试。
+2. Windows 继续同步设备编号、统计表、报告状态。
+3. 公共状态仓库作为 Mac / Windows / 手机查看的统一状态板。
+4. 公共状态仓库只放允许公开的状态摘要。

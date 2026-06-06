@@ -1,7 +1,3 @@
-﻿# Windows Hongye Latest Status
+# Windows Hongye Latest Status
 
-Platform: Windows
-
-Local status mirror has been prepared.
-
-The local Hongye folder is currently not a Git repository, so main project commit and push are not available from this folder.
+Windows 状态由 Windows Codex 同步。当前 Mac 端未更新 Windows 细节。
