@@ -1,7 +1,7 @@
 # REPORT_INDEX
 
 ## 时间
-2026-06-06 17:42:48
+2026-06-06 17:47:55
 
 ## 最新报告文件
 ```text
@@ -16,6 +16,7 @@
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Foreground_One_Round_Diagnose_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Git_Bridge_Run_Once_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Quote_Draft_V1_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Quote_Draft_V1_Styled_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Quote_Project_Reposition_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Reverse_Engineer_Work_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Quantity_List_Auto_Demo_Report.md
@@ -27,11 +28,11 @@
 
 ## 最新 Git 提交
 ```text
+c6e9fc8 style_hongye_quote_draft_v1
 eec97c8 add_hongye_quote_draft_v1
 fb68a39 add_standardize_unpriced_quantity_v1
 fdc2f21 add_gpt_git_bridge_entry_sync
 0be31a5 hongye_git_bridge_run_once_update
-540f6e1 diagnose_hongye_foreground_one_round
 ```
 
 ## 当前 Git 状态
