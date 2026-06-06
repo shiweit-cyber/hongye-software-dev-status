@@ -1,23 +1,17 @@
-# Hongye Autonomous Dev Status
+# Hongye Foreground Diagnose Status
 
 ## 时间
-2026-06-06 15:51:21
+2026-06-06 15:54:30
 
 ## 当前模式
-安全版全自动循环状态检查
+前台单轮诊断，不是后台循环。
 
-## 当前结论
-刚才尝试重启安全版全自动循环，但进程已提前退出，没有完成第一轮提交。
+## 诊断结论
+失败步骤：无
+失败码：0
 
-## 循环状态
-stopped_after_restart
+## 查看日志
+04_AI交接/node_reports/hongye_foreground_one_round_diagnose.log
 
-## 最近日志
-请查看公共状态仓库 LOOP_LOG_TAIL.md。
-
-## 安全边界
-- 未覆盖安全版脚本
-- 未使用简化脚本
-- 未提交原始 XLSX/output XLSX/宏业数据库/真实报价成果/token/key/密码
-- 未 force push
-- 未 git add .
+## 项目方向
+宏业自动报价单 / 报价清单生成系统。
