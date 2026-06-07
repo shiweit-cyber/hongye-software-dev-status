@@ -12,11 +12,11 @@ Route table:
 - HY-R013: Verify save/export GCFX path after successful import; AutoAllowed=False; StopCondition=Manual Hongye N10 operation required
 
 One-shot self-check:
-- Can enter Windows self-driving mode: False
-- Stop reason: Hongye N10 missing; HY-R007 Excel missing
-- Next round: HY-R009
-- Next mode: auto scan and wait for import file
-- Next reason: HY-R007 Excel file is missing.
+- Can enter Windows self-driving mode: True
+- Stop reason: No hard blocker. HY-R010 still requires manual Hongye N10 import verification.
+- Next round: HY-R010
+- Next mode: stop for manual import verification
+- Next reason: HY-R007 files and Hongye N10 exist. Tang boss needs to manually test Excel import in Hongye N10.
 
 Safety:
 - The runner is one-shot by default.

@@ -7,8 +7,8 @@ Status: Self-driving runner prepared
 Summary:
 - Windows self-driving route table was created.
 - One-shot self-check completed.
-- Next round: HY-R009.
-- Next mode: auto scan and wait for import file.
+- Next round: HY-R010.
+- Next mode: stop for manual import verification.
 
 Safety:
 - No original GCFX/XLSX/PDF committed.
