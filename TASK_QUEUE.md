@@ -6,4 +6,4 @@
 - HY-R038-02: batch desensitized pipeline rerun
 - HY-R038-03: batch quality control rerun
 
-Current subtask: HY-R038-02
+Current subtask: HY-R038-03

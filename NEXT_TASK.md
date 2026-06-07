@@ -1,8 +1,8 @@
 # NEXT_TASK
 
 Round: HY-R038
-Subtask: HY-R038-02
-Task Name: Batch desensitized pipeline rerun
+Subtask: HY-R038-03
+Task Name: Batch quality control rerun
 Platform: Windows
 
 Task Target:
@@ -12,7 +12,7 @@ Allowed Actions:
 - read_next_task
 - parse_next_task
 - run_safe_task_executor
-- run_batch_pipeline_with_copied_desensitized_samples
+- run_batch_quality_control_on_desensitized_outputs
 - generate_node_report
 - generate_status_json
 - update_status_now
