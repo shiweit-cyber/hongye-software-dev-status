@@ -1,6 +1,7 @@
 # ASK_GPT
 
-## HY-R046 后需要 GPT 判断
+## HY-AUTOQUEUE-01 后需要 GPT 判断
 
-- 是否继续下一任务：HY-R047
-- 是否保持有限队列，不开启无限循环。
+- 是否进入 HY-R047。
+- 是否将有限队列 runner 作为后续安全队列模板。
+- 是否继续保持 auto_loop_enabled=false。

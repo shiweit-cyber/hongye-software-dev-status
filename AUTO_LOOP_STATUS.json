@@ -1,11 +1,16 @@
 {
-  "round": "HY-R046",
-  "status": "done",
-  "current_task": "confirmed quality control V2 run",
+  "round": "HY-AUTOQUEUE-01",
+  "status": "partially_completed",
+  "current_task": "finite autoqueue HY-R042 to HY-R046",
   "auto_loop_enabled": false,
   "auto_loop_mode": "finite_autoqueue_once",
   "infinite_loop": false,
+  "tasks_total": 5,
+  "tasks_completed": 3,
+  "tasks_failed": 2,
+  "tasks_blocked": 0,
+  "last_completed": "HY-AUTOQUEUE-01",
   "next_task": "HY-R047",
   "needs_gpt_confirmation": true,
-  "updated_at": "2026-06-08 00:08:34"
+  "updated_at": "2026-06-08 00:08:43"
 }

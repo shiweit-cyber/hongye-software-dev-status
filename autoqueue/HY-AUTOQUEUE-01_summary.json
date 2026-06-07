@@ -1,0 +1,142 @@
+{
+  "platform": "Windows",
+  "project": "Hongye standard quote automation project",
+  "round": "HY-AUTOQUEUE-01",
+  "queue": "HY-R042 to HY-R046",
+  "finite_queue": true,
+  "infinite_loop": false,
+  "tasks_total": 5,
+  "tasks_completed": 3,
+  "tasks_failed": 2,
+  "tasks_blocked": 0,
+  "latest_commit": "14fa679 HY-R046 finalize autoqueue task status",
+  "git_status": "",
+  "auto_stopped_after_5_tasks": true,
+  "results": [
+    {
+      "task_id": "HY-R042",
+      "task_name": "confirmed single run mechanism",
+      "round": "HY-R042",
+      "status": "done",
+      "started_at": "2026-06-08 00:07:32",
+      "finished_at": "2026-06-08 00:07:38",
+      "input_files": [],
+      "output_files": [
+        "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R042_confirmed_run_mechanism_report.md"
+      ],
+      "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R042_confirmed_run_mechanism_report.md",
+      "commit_hash": "3e9cc0f",
+      "push_success": true,
+      "error_message": "",
+      "safety_check": {
+        "real_customer_files_read": false,
+        "hongye_database_read": false,
+        "real_quote_generated": false,
+        "git_add_dot_used": false,
+        "force_push_used": false,
+        "infinite_loop": false
+      },
+      "start_commit_hash": "a58d113"
+    },
+    {
+      "task_id": "HY-R043",
+      "task_name": "confirmed check V2 metrics",
+      "round": "HY-R043",
+      "status": "done",
+      "started_at": "2026-06-08 00:07:46",
+      "finished_at": "2026-06-08 00:07:49",
+      "input_files": [],
+      "output_files": [
+        "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R043_check_v2_metrics_confirmed_run_report.md"
+      ],
+      "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R043_check_v2_metrics_confirmed_run_report.md",
+      "commit_hash": "903499d",
+      "push_success": true,
+      "error_message": "",
+      "safety_check": {
+        "real_customer_files_read": false,
+        "hongye_database_read": false,
+        "real_quote_generated": false,
+        "git_add_dot_used": false,
+        "force_push_used": false,
+        "infinite_loop": false
+      },
+      "start_commit_hash": "8828ca3"
+    },
+    {
+      "task_id": "HY-R044",
+      "task_name": "confirmed single V2 pipeline run",
+      "round": "HY-R044",
+      "status": "failed",
+      "started_at": "2026-06-08 00:07:58",
+      "finished_at": "2026-06-08 00:08:04",
+      "input_files": [],
+      "output_files": [
+        "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R044_single_v2_confirmed_run_report.md"
+      ],
+      "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R044_single_v2_confirmed_run_report.md",
+      "commit_hash": "0da3369",
+      "push_success": true,
+      "error_message": "task validation failed",
+      "safety_check": {
+        "real_customer_files_read": false,
+        "hongye_database_read": false,
+        "real_quote_generated": false,
+        "git_add_dot_used": false,
+        "force_push_used": false,
+        "infinite_loop": false
+      },
+      "start_commit_hash": "489d6fb"
+    },
+    {
+      "task_id": "HY-R045",
+      "task_name": "confirmed batch V2 pipeline run",
+      "round": "HY-R045",
+      "status": "failed",
+      "started_at": "2026-06-08 00:08:13",
+      "finished_at": "2026-06-08 00:08:21",
+      "input_files": [],
+      "output_files": [
+        "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R045_batch_v2_confirmed_run_report.md"
+      ],
+      "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R045_batch_v2_confirmed_run_report.md",
+      "commit_hash": "1680da1",
+      "push_success": true,
+      "error_message": "task validation failed",
+      "safety_check": {
+        "real_customer_files_read": false,
+        "hongye_database_read": false,
+        "real_quote_generated": false,
+        "git_add_dot_used": false,
+        "force_push_used": false,
+        "infinite_loop": false
+      },
+      "start_commit_hash": "19ef548"
+    },
+    {
+      "task_id": "HY-R046",
+      "task_name": "confirmed quality control V2 run",
+      "round": "HY-R046",
+      "status": "done",
+      "started_at": "2026-06-08 00:08:30",
+      "finished_at": "2026-06-08 00:08:34",
+      "input_files": [],
+      "output_files": [
+        "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R046_quality_control_v2_confirmed_run_report.md"
+      ],
+      "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R046_quality_control_v2_confirmed_run_report.md",
+      "commit_hash": "c9a481d",
+      "push_success": true,
+      "error_message": "",
+      "safety_check": {
+        "real_customer_files_read": false,
+        "hongye_database_read": false,
+        "real_quote_generated": false,
+        "git_add_dot_used": false,
+        "force_push_used": false,
+        "infinite_loop": false
+      },
+      "start_commit_hash": "0f4c30e"
+    }
+  ]
+}
