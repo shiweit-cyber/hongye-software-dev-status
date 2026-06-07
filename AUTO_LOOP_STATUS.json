@@ -1,13 +1,14 @@
 {
   "platform": "Windows",
-  "round": "HY-R034",
+  "round": "HY-R035",
   "status": "completed",
-  "current_task": "single desensitized pipeline run test",
+  "current_task": "desensitized pipeline integrity check and archive",
   "auto_loop_enabled": false,
   "auto_loop_mode": "single_safe_test_once",
-  "last_completed": "HY-R034 ?????????????",
-  "next_task": "HY-R035",
+  "last_completed": "HY-R035 ?????????????????",
+  "next_task": "HY-R036",
   "needs_gpt_confirmation": true,
-  "pipeline_passed": true,
-  "updated_at": "2026-06-07 22:30:31"
+  "integrity_passed": true,
+  "archive_created": true,
+  "updated_at": "2026-06-07 22:34:20"
 }

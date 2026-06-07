@@ -1,0 +1,48 @@
+{
+  "platform": "Windows",
+  "round": "HY-R035",
+  "task": "desensitized pipeline integrity check and archive",
+  "status": "completed",
+  "pipeline_output_dir": "C:\\Users\\Administrator\\Documents\\宏业软件\\13_pipeline\\output",
+  "archive_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\04_AI交接\\node_reports\\HY-R035_Desensitized_Pipeline_Archive.zip",
+  "archive_exists": true,
+  "archive_size_bytes": 444587,
+  "integrity_passed": true,
+  "missing_inputs": [],
+  "pipeline": {
+    "rows": 300,
+    "review_count": 28,
+    "fire_default": 28
+  },
+  "batch": {
+    "rows": 900,
+    "review_count": 84,
+    "fire_default": 84,
+    "success_count": 3,
+    "failed_count": 0
+  },
+  "quality_control": {
+    "rows": 900,
+    "review_count": 84,
+    "fire_default": 84,
+    "success_files": 3,
+    "failed_files": 0
+  },
+  "consistency": {
+    "pipeline_single_rows_valid": true,
+    "batch_total_rows_valid": true,
+    "qc_total_rows_valid": true,
+    "review_count_valid": true,
+    "fire_default_count_valid": true,
+    "batch_failed_files_zero": true,
+    "qc_failed_files_zero": true
+  },
+  "real_customer_files_read": false,
+  "hongye_database_read": false,
+  "real_quote_generated": false,
+  "auto_loop_enabled": false,
+  "auto_loop_mode": "single_safe_test_once",
+  "commit_pushed": true,
+  "recommended_next_round": "HY-R036",
+  "updated_at": "2026-06-07 22:34:20"
+}

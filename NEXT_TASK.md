@@ -1,7 +1,7 @@
 # NEXT_TASK
 
 ## Current Recommended Round
-HY-R035
+HY-R036
 
 ## Task Name
 Wait for GPT confirmation
@@ -10,7 +10,7 @@ Wait for GPT confirmation
 Windows
 
 ## Current Status
-HY-R034 single desensitized pipeline run test has completed. GPT must explicitly confirm HY-R035 before the next single safe task.
+HY-R035 desensitized pipeline integrity check and local archive creation has completed. GPT must explicitly confirm HY-R036 before the next single safe task.
 
 ## Allowed Actions
 - read_status_files
