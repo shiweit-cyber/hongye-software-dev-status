@@ -1,25 +1,26 @@
 # Hongye Auto Test Report
 
 ## 当前轮次
-HY-R017
+HY-R018
 
 ## 自动测试结果
-自研离线模拟导入器测试通过。
+自研报价清单生成器 V1 自测通过。
 
-## 测试输入
-- HY-R016 候选 Excel
-- HY-R016/HY-R017 字段规则库 JSON
+## 测试内容
+- 输入 JSON 是否存在。
+- 是否能读取 300 条清单行。
+- 输出 JSON / CSV / XLSX 是否生成。
+- 输出行数是否等于输入行数。
+- 每条报价是否包含综合单价、合价、价格来源、报价状态。
+- 合价计算是否正确。
+- 需要人工复核逻辑是否生效。
+- 不检查真实价格。
 
-## 测试输出
-- JSON：HY-R017_offline_import_result.json
-- CSV：HY-R017_offline_import_result.csv
-- XLSX：HY-R017_offline_import_result.xlsx
-- 校验报告：HY-R017_offline_import_validation_report.md
-
-## 校验结果
-- 清单行数量：300
-- 通过数量：300
-- 失败数量：0
+## 测试结果
+- 输入行数：300
+- 输出行数：300
+- 成功报价数量：300
+- 需要人工复核数量：0
 
 ## 结论
-HY-R017 可以作为 HY-R018 自研报价清单生成器的输入基础。
+HY-R018 可作为 HY-R019 定额匹配 / 价格规则插件化的基础。
