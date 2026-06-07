@@ -1,0 +1,39 @@
+{
+  "version": "HY-R025-v1",
+  "mode": "single_run_only",
+  "allowed_actions": [
+    "read_next_task",
+    "read_execution_rules",
+    "read_auto_loop_status",
+    "parse_task_metadata",
+    "write_execution_plan",
+    "write_status_json",
+    "write_node_report",
+    "update_status_now",
+    "update_ask_gpt",
+    "update_task_queue",
+    "update_next_task",
+    "update_auto_loop_status",
+    "git_status",
+    "git_commit_push_public_status"
+  ],
+  "blocked_action_patterns": [
+    "真实客户文件",
+    "宏业数据库",
+    "真实报价",
+    "破解",
+    "绕过授权",
+    "修改 hyysn10.exe",
+    "force push",
+    "git add .",
+    "长期后台运行",
+    "无限循环",
+    "系统网络",
+    "防火墙",
+    "代理"
+  ],
+  "public_repo_dir": "C:\\Users\\Administrator\\Documents\\hongye-software-dev-status",
+  "project_dir": "C:\\Users\\Administrator\\Documents\\宏业软件",
+  "safe_commit_message": "HY-R025 build safe whitelist executor v1",
+  "recommended_next_round": "HY-R026"
+}

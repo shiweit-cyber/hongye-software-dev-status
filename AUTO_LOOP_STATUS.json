@@ -1,26 +1,13 @@
-﻿{
-    "platform":  "Windows",
-    "round":  "HY-R024",
-    "status":  "completed",
-    "current_task":  "NEXT_TASK reader v1",
-    "next_task":  "HY-R025 白名单低风险任务自动执行器第一版",
-    "last_completed":  "HY-R024 NEXT_TASK 自动读取执行器第一版",
-    "auto_loop_enabled":  false,
-    "auto_loop_mode":  "proposal_only_until_GPT_confirms",
-    "next_task_found":  true,
-    "parsed_round":  "HY-R024",
-    "parsed_task_name":  "NEXT_TASK 自动读取执行器第一版",
-    "auto_execute_allowed":  false,
-    "safety_blocked":  false,
-    "needs_gpt_confirmation":  true,
-    "recommended_next_round":  "HY-R025",
-    "public_repo":  "https://github.com/shiweit-cyber/hongye-software-dev-status",
-    "safety":  {
-                   "submit_sensitive_credentials":  false,
-                   "read_hongye_database":  false,
-                   "crack_or_bypass_n10":  false,
-                   "submit_real_quote":  false,
-                   "read_real_customer_files":  false
-               },
-    "updated_at":  "2026-06-07 20:45:53"
+{
+  "platform": "Windows",
+  "round": "HY-R025",
+  "status": "completed",
+  "current_task": "Safe whitelist executor v1",
+  "next_task": "HY-R026",
+  "auto_loop_enabled": false,
+  "auto_loop_mode": "proposal_only_until_GPT_confirms",
+  "whitelist_allowed": true,
+  "blocked_by_safety": false,
+  "needs_gpt_confirmation": true,
+  "updated_at": "2026-06-07 20:56:20"
 }
