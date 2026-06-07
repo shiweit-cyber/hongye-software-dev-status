@@ -1,25 +1,28 @@
-# LOOP_LOG_TAIL - HY-R007
+# LOOP_LOG_TAIL - HY-R008
 
-## HY-R007 报告摘要
+## HY-R008 报告摘要
 
 ```text
-HY-R007 已完成宏业可导入 Excel / CSV / XML 中转格式验证，并完成 GCFX 模板替换法最小探针。
+HY-R008 已完成 Mac 端导入验证准备。
 
-本轮结果：
-- Excel 草稿：已生成
-- CSV 草稿：已生成
-- XML 草稿：已生成
-- 记录数：300
-- 中转字段完整：是
-- 发现 gcfx 模板：6
-- 可安全替换 xml/json/table 条目：0
-- 正式 gcfx：未生成
-- 真实价格字段泄露风险：未发现
-- 是否偏离最高总纲：否
+当前结论：
+- Mac output 已确认存在 HY-R007 Excel/CSV/XML 草稿。
+- 当前执行环境是 Mac，不能直接访问 Windows 宏业目录。
+- Windows 是否已找到 HY-R007 导入草稿：未确认。
+- 宏业软件是否可检测到：未确认。
+- 是否可自动进入导入流程：未执行。
+- 最有希望导入格式：Excel。
 
-下一步：
-1. 用宏业软件试导入 HY-R007 的 Excel/CSV/XML 草稿。
-2. 如果能导入，进入导入字段精修。
-3. 如果不能导入，继续深入 gcfx 内部 schema。
-4. HY-R005 遗留文件单独处理，不混入 HY-R007。
+Windows 端下一步：
+1. 建立目录：C:\Users\Administrator\Documents\宏业软件\08_import_test\HY-R008
+2. 复制 HY-R007 Excel/CSV/XML 草稿到该目录。
+3. 用宏业软件优先验证 Excel，再验证 CSV/XML。
+4. 记录是否需要调整字段名、表头、编码、单位、工程量列。
+
+安全：
+- 未提交 output 文件。
+- 未提交真实客户文件。
+- 未提交宏业数据库。
+- 未生成正式 gcfx。
+- 未偏离最高总纲。
 ```
