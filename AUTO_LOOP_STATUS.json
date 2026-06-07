@@ -1,12 +1,12 @@
 {
   "platform": "Windows",
-  "round": "HY-R028",
+  "round": "HY-R029",
   "status": "completed",
+  "current_task": "修正白名单执行器动态轮次识别",
   "auto_loop_enabled": false,
   "auto_loop_mode": "single_safe_test_once",
-  "last_completed": "HY-R028 ??????????",
-  "next_task": "HY-R029",
+  "last_completed": "HY-R029 修正白名单执行器动态轮次识别",
+  "next_task": "HY-R030",
   "needs_gpt_confirmation": true,
-  "infinite_loop_enabled": false,
-  "updated_at": "2026-06-07 21:25:15"
+  "updated_at": "2026-06-07 21:33:08"
 }
