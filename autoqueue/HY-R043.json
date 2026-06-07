@@ -2,11 +2,13 @@
   "task_id": "HY-R043",
   "task_name": "confirmed check V2 metrics",
   "round": "HY-R043",
-  "status": "running",
+  "status": "done",
   "started_at": "2026-06-08 00:07:46",
-  "finished_at": "",
+  "finished_at": "2026-06-08 00:07:49",
   "input_files": [],
-  "output_files": [],
+  "output_files": [
+    "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R043_check_v2_metrics_confirmed_run_report.md"
+  ],
   "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R043_check_v2_metrics_confirmed_run_report.md",
   "commit_hash": "",
   "push_success": false,
