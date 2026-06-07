@@ -10,8 +10,8 @@
     "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R045_batch_v2_confirmed_run_report.md"
   ],
   "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R045_batch_v2_confirmed_run_report.md",
-  "commit_hash": "",
-  "push_success": false,
+  "commit_hash": "8cd7336",
+  "push_success": true,
   "error_message": "task validation failed",
   "safety_check": {
     "real_customer_files_read": false,
@@ -20,5 +20,6 @@
     "git_add_dot_used": false,
     "force_push_used": false,
     "infinite_loop": false
-  }
+  },
+  "start_commit_hash": "19ef548"
 }
