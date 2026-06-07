@@ -1,17 +1,23 @@
-# Hongye Latest Status - HY-R008
+﻿# Hongye Latest Status
 
-## 当前状态
-HY-R008 已完成 Mac 端导入验证准备，等待 Windows 端接力测试宏业软件导入。
+Round: HY-R009
+Platform: Windows
+Status: Completed
 
-## 已确认
-- Mac 本机已生成 HY-R007 Excel/CSV/XML 三个导入草稿。
-- 本轮未提交 output 文件。
-- 本轮未生成正式 gcfx。
+Summary:
+- Windows scanned local GCFX samples and copied numbered samples to local learning folder.
+- Structure-only analysis completed without publishing original paths or price details.
+- HY-R008 Excel import preparation remains ready.
 
-## 未确认
-- Windows 是否已收到 HY-R007 导入草稿。
-- 宏业软件是否可检测到。
-- Excel/CSV/XML 哪种格式能被宏业识别。
+Key results:
+- GCFX found: 13
+- GCFX copied: 13
+- All GCFX zip-like: True
+- Field keywords: 未识别
+- HY-R007 Excel exists: True
+- Hongye N10 detected: True
 
-## 下一步
-Windows 端复制 HY-R007 草稿到 HY-R008 导入验证目录，并优先测试 Excel 导入。
+Safety:
+- No original GCFX committed.
+- No real project output committed.
+- No database or credential committed.

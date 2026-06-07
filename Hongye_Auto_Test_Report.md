@@ -1,13 +1,16 @@
 ﻿# Hongye Auto Test Report
 
-## HY-R008
+Round: HY-R009
+Platform: Windows
+Result: Completed
 
-Windows pulled the HY-R007 import draft files from the private repository.
+Checks:
+- GCFX scan completed: yes
+- Numbered local sample copy completed: yes
+- Structure-only zip analysis completed: yes
+- Excel import preparation completed: yes
+- Public status whitelist update prepared: yes
 
-- Excel draft: found
-- CSV draft: found
-- XML draft: found
-- Hongye software: detected
-- Automatic real project import: not performed
-
-Excel should be tested first by manual import in 清单计价专家N10.
+Sensitive data boundary:
+- Public status files contain status only.
+- Original GCFX, real output files, databases, and credentials were not added.

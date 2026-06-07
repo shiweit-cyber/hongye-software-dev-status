@@ -1,12 +1,7 @@
-# Mac Hongye Latest Status
+﻿# Mac Hongye Latest Status
 
-## 结论
-Mac 端完成一轮 Git 链接稳定版执行。
+Platform: Mac
 
-## 时间
-2026-06-06 17:30:30
+Status: pending.
 
-## 查看
-- STATUS_NOW.md
-- ASK_GPT.md
-- LOOP_LOG_TAIL.md
+Mac side can use this public status repository after the workflow is confirmed.

@@ -1,25 +1,17 @@
 ﻿# Windows Hongye Latest Status
 
-Platform: Windows
+Round: HY-R009
+Status: Completed
 
-HY-R008 files have been pulled from the private repository to Windows.
+Windows results:
+- GCFX found: 13
+- GCFX copied to local learning folder: 13
+- GCFX zip-like check: True
+- Recognized structure keywords: 未识别
+- HY-R007 Excel available: True
+- HY-R007 CSV available: True
+- HY-R007 XML available: True
+- Hongye N10 executable detected: True
 
-## HY-R008 File Check
-
-- Excel draft: found
-- CSV draft: found
-- XML draft: found
-
-## Format Precheck
-
-- Excel: available and should be tested first
-- CSV: available; header looks readable with UTF-8 BOM
-- XML: available; Windows precheck shows garbled Chinese tag text, so XML may need encoding review
-
-## Hongye Software
-
-Detected: 清单计价专家N10
-
-## Next
-
-Open 清单计价专家N10 and manually test the Excel import path first. Record any field/header mapping issues.
+Next manual action:
+- Open Hongye N10 and test Excel import with the HY-R007 draft file in a blank test project.
