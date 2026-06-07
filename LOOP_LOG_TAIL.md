@@ -1,28 +1,21 @@
-# LOOP_LOG_TAIL - HY-R008
+# LOOP_LOG_TAIL
 
-## HY-R008 报告摘要
+## 时间
+2026-06-07 17:43:15
 
+## 最近日志
 ```text
-HY-R008 已完成 Mac 端导入验证准备。
-
-当前结论：
-- Mac output 已确认存在 HY-R007 Excel/CSV/XML 草稿。
-- 当前执行环境是 Mac，不能直接访问 Windows 宏业目录。
-- Windows 是否已找到 HY-R007 导入草稿：未确认。
-- 宏业软件是否可检测到：未确认。
-- 是否可自动进入导入流程：未执行。
-- 最有希望导入格式：Excel。
-
-Windows 端下一步：
-1. 建立目录：C:\Users\Administrator\Documents\宏业软件\08_import_test\HY-R008
-2. 复制 HY-R007 Excel/CSV/XML 草稿到该目录。
-3. 用宏业软件优先验证 Excel，再验证 CSV/XML。
-4. 记录是否需要调整字段名、表头、编码、单位、工程量列。
-
-安全：
-- 未提交 output 文件。
-- 未提交真实客户文件。
-- 未提交宏业数据库。
-- 未生成正式 gcfx。
-- 未偏离最高总纲。
+[2026-06-07 17:41:22] 启动 hongye_self_driving_runner，模式=self-check，轮数=1
+[2026-06-07 17:41:22] ===== 第 1 轮开始 =====
+[2026-06-07 17:41:26] 遇到停止条件，结束后续轮次。
+[2026-06-07 17:42:25] 启动 hongye_self_driving_runner，模式=self-check，轮数=1
+[2026-06-07 17:42:25] ===== 第 1 轮开始 =====
+[2026-06-07 17:43:11] 启动 hongye_self_driving_runner，模式=self-check，轮数=1
+[2026-06-07 17:43:11] ===== 第 1 轮开始 =====
+[main 309541e] add_hongye_self_driving_runner
+ 8 files changed, 850 insertions(+), 71 deletions(-)
+ create mode 100644 "04_AI\344\272\244\346\216\245/node_reports/HY-AUTO_Self_Driving_Runner_Report.md"
+ create mode 100755 07_scripts/hongye_self_driving_runner.sh
+To https://github.com/shiweit-cyber/hongye-software-dev.git
+   2263ead..309541e  main -> main
 ```

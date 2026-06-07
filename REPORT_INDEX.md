@@ -1,11 +1,10 @@
 # REPORT_INDEX
 
 ## 时间
-2026-06-07 13:57:09
+2026-06-07 17:43:15
 
 ## 最新报告文件
 ```text
-/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Foreground_One_Round_Diagnose_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Git_Bridge_Run_Once_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Manual_Review_V1_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Project_Master_Principle_Report.md
@@ -17,6 +16,7 @@
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Quote_Draft_V1_Styled_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Quote_Project_Reposition_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Quote_V2_Prepare_Report.md
+/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Real_DB3_Keyword_Probe_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Real_DB3_Readonly_Verify_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Reverse_Engineer_Work_Report.md
 /Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Hongye_Ultimate_Goal_Update_Report.md
@@ -29,20 +29,35 @@
 
 ## 最新 Git 提交
 ```text
-d19217b run_confirmed_real_db3_readonly_verify
-00089f1 design_standard_boq_v1_bridge
-77d7c9c continue_real_db3_readonly_verify
-0078df1 add_ultimate_project_goal
-4039c10 add_ultimate_project_goal
+2263ead HY-R007 upload for Windows import test
+f481252 HY-R008 prepare import format verification
+6fbc001 HY-R007 import formats and gcfx template probe
+49cadd7 HY-R006 gcfx structure export feasibility
+c46b059 HY-R004 bank template gcfx review loop
 ```
 
 ## 当前 Git 状态
 ```text
+ M "04_AI\344\272\244\346\216\245/gpt_bridge/ASK_GPT.md"
  M "04_AI\344\272\244\346\216\245/gpt_bridge/REPORT_INDEX.md"
+ M "04_AI\344\272\244\346\216\245/gpt_bridge/STATUS_NOW.md"
+ M "04_AI\344\272\244\346\216\245/public_status_mirror/Hongye_Latest_Status.md"
+ M "04_AI\344\272\244\346\216\245/public_status_mirror/Hongye_Next_Actions.md"
+ M "04_AI\344\272\244\346\216\245/public_status_mirror/Mac_Hongye_Latest_Status.md"
+ M 07_scripts/standardize_unpriced_quantity_v1.py
  M README.md
+?? "04_AI\344\272\244\346\216\245/node_reports/HY-AUTO_Self_Driving_Runner_Report.md"
+?? "04_AI\344\272\244\346\216\245/node_reports/HY-R005_Bank_Field_Mapping_And_Feedback_Report.md"
 ?? "04_AI\344\272\244\346\216\245/node_reports/Mac_Auto_Test_Latest_Report.md"
 ?? "04_AI\344\272\244\346\216\245/node_reports/Mac_Auto_Work_Latest_Report.md"
 ?? "04_AI\344\272\244\346\216\245/node_reports/Mac_GitHub_First_Push_Report.md"
+?? "05_\345\255\227\346\256\265\346\230\240\345\260\204/HY-R005_bank_template_field_mapping.json"
+?? "05_\345\255\227\346\256\265\346\230\240\345\260\204/HY-R005_manual_review_feedback_schema.json"
+?? "05_\345\255\227\346\256\265\346\230\240\345\260\204/hongye_industry_terms_v2.json"
+?? 07_scripts/HY_R005_bank_field_mapping_feedback.py
+?? 07_scripts/hongye_self_driving_runner.sh
 ?? 07_scripts/net_speed_test.py
 ?? 07_scripts/net_speed_web.py
+?? tests/test_HY_R005_bank_field_mapping.py
+?? tests/test_HY_R005_manual_review_feedback.py
 ```

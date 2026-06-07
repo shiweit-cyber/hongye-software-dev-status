@@ -1,17 +1,10 @@
-﻿# Hongye Latest Status
+# Hongye Latest Status - HY-AUTO
 
-Round: HY-R010 preparation
-Platform: Windows
-Status: Self-driving runner prepared
+## 当前状态
+宏业自驱 runner 已接管路线判断，本轮状态：blocked。
 
-Summary:
-- Windows self-driving route table was created.
-- One-shot self-check completed.
-- Next round: HY-R010.
-- Next mode: stop for manual import verification.
+## 当前路线
+HY-R009 - Windows GCFX 样本扫描归类学习 + HY-R008 Excel 导入测试准备
 
-Safety:
-- No original GCFX/XLSX/PDF committed.
-- No database committed.
-- No credential committed.
-- Public status sync uses whitelist files only.
+## 结论
+暂时不能进入完整自主推进模式；当前路线在 HY-R009 被阻塞。
