@@ -1,58 +1,62 @@
-# LOOP_LOG_TAIL - HY-R002
+# LOOP_LOG_TAIL - HY-R003
 
 ## 时间
-2026-06-07 14:18:40
+2026-06-07 15:15:51
 
-## HY-R002 报告摘要
+## HY-R003 报告摘要
 
 ```text
-# HY-R002 Real Unpriced From Priced List Report
+# HY-R003 DB3 Match Ranking Optimize Report
 
 ## 轮次代号
-HY-R002
+HY-R003
 
 ## 最高总纲
 原始平面图 → 消防 CAD 自动画图 → 自动统计工程量 → 标准工程量清单 → 宏业自动报价 → 定额匹配 → 人工复核 → 最终报价成果。
 
-## 当前宏业定位
-后端报价引擎，只负责标准工程量清单到报价成果，不处理 CAD 绘图逻辑。
-
 ## 结论
-- 是否成功生成真实格式无价工程量样例：是
-- 样例记录数：300
-- 标准化解析记录数：300
-- 真实 DB3 匹配候选数量：801
-- 匹配成功记录数：273
-- 人工复核行数：300
+- V4 匹配规则已生成：07_scripts/match_hongye_quota_v4_ranked.py
+- 记录数：300
+- 候选总数：380
+- A类可自动推荐：0
+- B类建议人工复核：2
+- C类低置信需确认：298
+- 需要人工复核数量：300
 - 测试是否通过：是
 - 错误信息：无
 
-## 脱敏来源摘要
-- source_2beb70596fe2：sheet_index=5，records=70
-- source_142fd0cf6a0e：sheet_index=7，records=109
-- source_8bc82336f499：sheet_index=9，records=55
-- source_66157ac88be4：sheet_index=11，records=38
-- source_36d5ffddea39：sheet_index=5，records=10
-- source_53a024d55ad4：sheet_index=1，records=18
+## HY-R002 候选质量分析
+- HY-R002 V3 候选总数：801
+- HY-R002 V3 需要人工复核数量：298
+- 每条候选数量分布：{"0": 162, "1": 16, "2": 2, "3": 120}
+- match_score 分布：{"1-54": 136, "0": 162, "55-79": 2}
+- confidence_gap 分布：{"0": 280, "10-19": 17, ">=20": 2, "1-9": 1}
+- 复核原因分类：{"低置信，需要人工确认": 298, "候选分差小": 119, "无 DB3 候选": 162, "中置信，建议人工复核": 2}
+
+## V4 规则
+- 单位一致加权
+- 清单名称关键词加权
+- 项目特征关键词加权
+- 分部分项/章节加权
+- 过滤测试、示例、清单项等噪声词
+- top 3 候选输出
+- 输出 confidence_gap
+- 自动分 A/B/C 三层
 
 ## 本地输出
-- output/真实格式无价工程量样例_HY-R002.xlsx（不提交）
-- output/真实格式无价工程量样例_HY-R002.json（不提交）
-- output/宏业定额匹配人工复核_HY-R002.xlsx（不提交）
+- output/宏业定额匹配人工复核_HY-R003.xlsx（不提交）
+- output/hongye_quota_match_result_v4_ranked_HY-R003.json（不提交）
 
 ## 安全边界
-- 已剥离价格字段，提交内容不含真实价格数据
-- 未提交原始 XLSX
-- 未提交 output XLSX/JSON/CSV
 - 未提交 DB3
 - 未提交真实 DB3 路径
+- 未提交 output XLSX/JSON/CSV
+- 未提交真实价格数据
+- 未提交原始 XLSX
 - 未提交 token/key/密码
 - 未处理 CAD/LISP/DWG/DXF
 - 未改动唐老板桌面文件夹摆放
 
 ## 最高总纲偏离检查
-- 是否服务于最终生产线：是
-- 是否保持宏业项目为后端报价引擎：是
-- 是否混入 CAD 绘图逻辑：否
-- 是否继续推进标准工程量清单到报价成果链路：是
+- 未偏离：本轮继续推进标准工程量清单到宏业自动报价、定额匹配、人工复核链路。
 ```
