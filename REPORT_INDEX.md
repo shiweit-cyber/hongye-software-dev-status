@@ -1,7 +1,7 @@
 # REPORT_INDEX
 
 ## 时间
-2026-06-07 17:43:15
+2026-06-07 17:44:12
 
 ## 最新报告文件
 ```text
@@ -29,11 +29,11 @@
 
 ## 最新 Git 提交
 ```text
+309541e add_hongye_self_driving_runner
 2263ead HY-R007 upload for Windows import test
 f481252 HY-R008 prepare import format verification
 6fbc001 HY-R007 import formats and gcfx template probe
 49cadd7 HY-R006 gcfx structure export feasibility
-c46b059 HY-R004 bank template gcfx review loop
 ```
 
 ## 当前 Git 状态
@@ -41,12 +41,9 @@ c46b059 HY-R004 bank template gcfx review loop
  M "04_AI\344\272\244\346\216\245/gpt_bridge/ASK_GPT.md"
  M "04_AI\344\272\244\346\216\245/gpt_bridge/REPORT_INDEX.md"
  M "04_AI\344\272\244\346\216\245/gpt_bridge/STATUS_NOW.md"
- M "04_AI\344\272\244\346\216\245/public_status_mirror/Hongye_Latest_Status.md"
- M "04_AI\344\272\244\346\216\245/public_status_mirror/Hongye_Next_Actions.md"
- M "04_AI\344\272\244\346\216\245/public_status_mirror/Mac_Hongye_Latest_Status.md"
+ M 07_scripts/hongye_self_driving_runner.sh
  M 07_scripts/standardize_unpriced_quantity_v1.py
  M README.md
-?? "04_AI\344\272\244\346\216\245/node_reports/HY-AUTO_Self_Driving_Runner_Report.md"
 ?? "04_AI\344\272\244\346\216\245/node_reports/HY-R005_Bank_Field_Mapping_And_Feedback_Report.md"
 ?? "04_AI\344\272\244\346\216\245/node_reports/Mac_Auto_Test_Latest_Report.md"
 ?? "04_AI\344\272\244\346\216\245/node_reports/Mac_Auto_Work_Latest_Report.md"
@@ -55,7 +52,6 @@ c46b059 HY-R004 bank template gcfx review loop
 ?? "05_\345\255\227\346\256\265\346\230\240\345\260\204/HY-R005_manual_review_feedback_schema.json"
 ?? "05_\345\255\227\346\256\265\346\230\240\345\260\204/hongye_industry_terms_v2.json"
 ?? 07_scripts/HY_R005_bank_field_mapping_feedback.py
-?? 07_scripts/hongye_self_driving_runner.sh
 ?? 07_scripts/net_speed_test.py
 ?? 07_scripts/net_speed_web.py
 ?? tests/test_HY_R005_bank_field_mapping.py

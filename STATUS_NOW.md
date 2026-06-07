@@ -1,7 +1,7 @@
 # STATUS_NOW - HY-AUTO
 
 ## 时间
-2026-06-07 17:43:15
+2026-06-07 17:44:12
 
 ## 运行模式
 self-check
@@ -13,10 +13,10 @@ HY-R009
 Windows GCFX 样本扫描归类学习 + HY-R008 Excel 导入测试准备
 
 ## 本轮结果
-- 状态：blocked
+- 状态：running
 - 动作：尚未执行
-- 停止原因：未执行
-- 是否可进入自主推进模式：unknown
+- 停止原因：HY-R009 缺少 Windows GCFX 样本目录：input/windows_gcfx_samples。
+- 是否可进入自主推进模式：no
 - 最新参考报告：/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Template_Field_Analysis_Report.md
 
 ## 最高总纲
@@ -30,24 +30,19 @@ Windows GCFX 样本扫描归类学习 + HY-R008 Excel 导入测试准备
 - 不改唐老板桌面文件夹摆放
 
 ## 下一步建议
-待判断。
+补充 Windows GCFX 样本后再继续 HY-R009。
 
 ## Git 最新提交
 ```text
-2263ead HY-R007 upload for Windows import test
+309541e add_hongye_self_driving_runner
 ```
 
 ## Git 当前状态
 ```text
- M "04_AI\344\272\244\346\216\245/gpt_bridge/ASK_GPT.md"
- M "04_AI\344\272\244\346\216\245/gpt_bridge/REPORT_INDEX.md"
  M "04_AI\344\272\244\346\216\245/gpt_bridge/STATUS_NOW.md"
- M "04_AI\344\272\244\346\216\245/public_status_mirror/Hongye_Latest_Status.md"
- M "04_AI\344\272\244\346\216\245/public_status_mirror/Hongye_Next_Actions.md"
- M "04_AI\344\272\244\346\216\245/public_status_mirror/Mac_Hongye_Latest_Status.md"
+ M 07_scripts/hongye_self_driving_runner.sh
  M 07_scripts/standardize_unpriced_quantity_v1.py
  M README.md
-?? "04_AI\344\272\244\346\216\245/node_reports/HY-AUTO_Self_Driving_Runner_Report.md"
 ?? "04_AI\344\272\244\346\216\245/node_reports/HY-R005_Bank_Field_Mapping_And_Feedback_Report.md"
 ?? "04_AI\344\272\244\346\216\245/node_reports/Mac_Auto_Test_Latest_Report.md"
 ?? "04_AI\344\272\244\346\216\245/node_reports/Mac_Auto_Work_Latest_Report.md"
@@ -56,7 +51,6 @@ Windows GCFX 样本扫描归类学习 + HY-R008 Excel 导入测试准备
 ?? "05_\345\255\227\346\256\265\346\230\240\345\260\204/HY-R005_manual_review_feedback_schema.json"
 ?? "05_\345\255\227\346\256\265\346\230\240\345\260\204/hongye_industry_terms_v2.json"
 ?? 07_scripts/HY_R005_bank_field_mapping_feedback.py
-?? 07_scripts/hongye_self_driving_runner.sh
 ?? 07_scripts/net_speed_test.py
 ?? 07_scripts/net_speed_web.py
 ?? tests/test_HY_R005_bank_field_mapping.py
