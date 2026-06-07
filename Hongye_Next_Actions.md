@@ -1,6 +1,6 @@
 ﻿# Hongye Next Actions
 
-1. Resolve or confirm N10 license/dongle prompt.
-2. Mac reviews HY-R011 mapping package.
-3. Windows can continue safe copied-sample metadata learning.
-4. Retry HY-R010A GUI import only after N10 reaches normal project UI.
+1. Resolve N10 software dongle/license prompt or confirm learning mode can be used.
+2. Retry HY-R010A only after N10 reaches normal UI.
+3. Keep HY-R013 blocked until a real import succeeds.
+4. Continue safe offline metadata/rules/report automation.

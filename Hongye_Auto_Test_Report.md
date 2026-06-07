@@ -1,11 +1,11 @@
 ﻿# Hongye Auto Test Report
 
-Round: HY-R014
+Round: HY-R015
 Platform: Windows
-Result: Corrected autonomous metadata/template progression completed
+Result: N10 blocker checked, offline tasks continued
 
-- HY-R011 mapping package: generated and verified
-- HY-R012 GCFX metadata probe sample count: 13
-- HY-R013 export precheck: blocked by N10 license/dongle prompt
+- N10 prompt still active: yes
+- Learning mode entry attempt: did not enter main UI
 - Real import success: no
+- Weekly report script generated: yes
 - Safety boundary: passed

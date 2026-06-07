@@ -1,13 +1,14 @@
 ﻿# Hongye Latest Status
 
-Round: HY-R014
+Round: HY-R015
 Platform: Windows
-Status: Autonomous global progress completed and corrected
+Status: Next autonomous round completed
 
 Summary:
-- HY-R011 mapping package generated and verified.
-- HY-R012 safe GCFX metadata probe completed. Sample count: 13
-- HY-R013 save/export precheck remains blocked by N10 license/dongle prompt.
-- Real N10 import remains blocked: 没有检测到软件狗信息.
+- N10 authorization/dongle prompt still exists.
+- Visible Yes click and Enter did not enter main UI.
+- Real import success: no
+- Offline automation continued: rules, candidate package, weekly report script.
+- HY-R013 remains blocked.
 
 Safety: no raw GCFX/XLSX/PDF, database, quote output, token, key, or password committed.
