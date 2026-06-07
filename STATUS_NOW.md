@@ -1,14 +1,14 @@
 # STATUS_NOW
 
-当前轮次：HY-R036
-状态：completed
-当前任务：三轮安全自动化闭环测试已完成
+Current round: HY-R037
+Current task: low-risk auto task queue
+Status: completed
 
-完成子任务：3
-失败子任务：0
+Completed tasks: 3
+Failed tasks: 0
 
-auto_loop_enabled：false
-auto_loop_mode：three_round_safe_loop_once
-next_task：HY-R037
+auto_loop_enabled: false
+auto_loop_mode: low_risk_queue_once
+next_task: HY-R038
 
-更新时间：2026-06-07 22:44:36
+Updated at: 2026-06-07 22:50:52

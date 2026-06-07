@@ -1,11 +1,11 @@
 # NEXT_TASK
 
-Round: HY-R037
-Task Name: Wait for GPT confirmation after HY-R036
+Round: HY-R038
+Task Name: Pending GPT confirmation after HY-R037
 Platform: Windows
 
 Task Target:
-GPT should review HY-R036 three-round safe automation loop before assigning the next task.
+Wait for GPT to review HY-R037 results and assign the next safe task.
 
 Allowed Actions:
 - read_status_files

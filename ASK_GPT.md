@@ -1,5 +1,5 @@
 # ASK_GPT
 
-HY-R036 三轮安全自动化闭环测试已完成。
+HY-R037 low-risk auto task queue has completed.
 
-请 GPT 判断是否进入 HY-R037，并决定下一轮是继续加强安全自动化，还是回到脱敏业务流水线增强。
+Please review whether HY-R038 should continue with a stronger single-round safe business task or report index cleanup.

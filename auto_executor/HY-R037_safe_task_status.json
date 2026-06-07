@@ -1,0 +1,43 @@
+{
+  "platform": "Windows",
+  "round": "HY-R037",
+  "task": "low-risk auto task queue",
+  "status": "completed",
+  "total_tasks": 3,
+  "completed_tasks": 3,
+  "failed_tasks": 0,
+  "auto_loop_enabled": false,
+  "auto_loop_mode": "low_risk_queue_once",
+  "infinite_loop": false,
+  "recommended_next_round": "HY-R038",
+  "tasks": [
+    {
+      "task_id": "HY-R037-01",
+      "task_name": "Safe executor NEXT_TASK parse check",
+      "success": true,
+      "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\19_multi_round_safe_loop\\reports\\HY-R037-01_safe_executor_next_task_parse.md",
+      "public_report_path": "C:\\Users\\Administrator\\Documents\\hongye-software-dev-status\\node_reports\\HY-R037-01_safe_executor_next_task_parse.md",
+      "missing": [],
+      "safe_executor_exit_code": 0
+    },
+    {
+      "task_id": "HY-R037-02",
+      "task_name": "Desensitized pipeline metrics check",
+      "success": true,
+      "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\19_multi_round_safe_loop\\reports\\HY-R037-02_desensitized_pipeline_metrics_check.md",
+      "public_report_path": "C:\\Users\\Administrator\\Documents\\hongye-software-dev-status\\node_reports\\HY-R037-02_desensitized_pipeline_metrics_check.md",
+      "missing": [],
+      "safe_executor_exit_code": 0
+    },
+    {
+      "task_id": "HY-R037-03",
+      "task_name": "Public state progression check",
+      "success": true,
+      "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\19_multi_round_safe_loop\\reports\\HY-R037-03_public_state_progression_check.md",
+      "public_report_path": "C:\\Users\\Administrator\\Documents\\hongye-software-dev-status\\node_reports\\HY-R037-03_public_state_progression_check.md",
+      "missing": [],
+      "safe_executor_exit_code": 0
+    }
+  ],
+  "updated_at": "2026-06-07 22:50:52"
+}
