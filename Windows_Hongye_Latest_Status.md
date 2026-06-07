@@ -1,11 +1,19 @@
-﻿# Windows Hongye Latest Status
+# Windows Hongye Latest Status
 
-Round: HY-R016
-Status: Offline rules and candidate package completed
+## 平台
+Windows
 
-- Rules JSON: C:\Users\Administrator\Documents\宏业软件\10_rules\hongye_header_mapping_rules.json
-- Candidate Excel: C:\Users\Administrator\Documents\宏业软件\09_import_candidates\HY-R016_candidate_package\HY-R016_N10_import_candidate.xlsx
-- Candidate package: C:\Users\Administrator\Documents\宏业软件\09_import_candidates\HY-R016_candidate_package
-- HY-R017 retry plan: C:\Users\Administrator\Documents\宏业软件\04_AI交接\node_reports\HY-R017_N10_Import_Retry_Plan.md
-- N10 status: authorization/license blocker remains
-- N10 import success: no
+## 当前轮次
+HY-R017
+
+## Windows 本轮完成
+- 开发离线模拟导入器。
+- 生成自研标准清单结构说明。
+- 生成标准化清单 JSON / CSV / XLSX。
+- 生成 HY-R017 模拟导入报告和校验报告。
+
+## N10 状态
+不再等待软件狗授权，不破解、不绕过、不修改 N10。
+
+## 下一步
+HY-R018：在 HY-R017 标准化清单结果基础上开发自研报价清单生成器。

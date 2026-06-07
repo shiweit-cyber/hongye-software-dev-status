@@ -1,6 +1,16 @@
-﻿# Hongye Next Actions
+# Hongye Next Actions
 
-1. Keep N10 GUI clicking paused until authorization/license is restored.
-2. Continue offline rules, candidate package, and GCFX metadata learning.
-3. After authorization recovery, enter HY-R017 and test HY-R016_N10_import_candidate.xlsx.
-4. GPT generates final PPT; Windows Codex supplies data and local package organization.
+## 下一轮建议
+HY-R018：自研报价清单生成器第一版。
+
+## 目标
+基于 HY-R017 标准化清单 JSON，生成自研报价清单草稿。
+
+## 建议输出
+- 报价清单 JSON
+- 报价清单 CSV
+- 报价清单 XLSX
+- HY-R018 报告
+
+## 安全边界
+不读取真实客户文件，不读取宏业数据库，不写真实价格，不破解 N10。
