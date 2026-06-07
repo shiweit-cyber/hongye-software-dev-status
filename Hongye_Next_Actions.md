@@ -1,9 +1,7 @@
 ﻿# Hongye Next Actions
 
-1. Copy Mac HY-R007 draft files to Windows HY-R008 target directory.
-2. Required files:
-   - HY-R007_宏业可导入清单草稿.xlsx
-   - HY-R007_宏业可导入清单草稿.csv
-   - HY-R007_宏业可导入清单草稿.xml
-3. Rerun HY-R008 on Windows.
-4. Test Excel import path first after files arrive.
+1. On Windows, open 清单计价专家N10.
+2. Test Excel import using the HY-R007 Excel draft in the HY-R008 test directory.
+3. If Excel import fields are not recognized, adjust Mac output headers and field order.
+4. Review CSV as a secondary option.
+5. Review XML encoding before using XML import because Windows precheck shows garbled Chinese tag text.
