@@ -1,12 +1,12 @@
 {
-  "round": "HY-AUTOQUEUE-PLAN-03",
+  "round": "HY-NO-FOREGROUND-WINDOW",
   "status": "completed",
-  "current_task": "product roadmap and precise test queue",
+  "current_task": "disable default foreground window opening",
   "auto_loop_enabled": false,
-  "auto_loop_mode": "planning_only",
-  "execute_now": false,
-  "planned_rounds": "HY-R047 to HY-R058",
-  "next_task": "HY-AUTOQUEUE-02",
+  "auto_loop_mode": "manual_or_confirmed_only",
+  "foreground_window_default_allowed": false,
+  "open_output_requires_explicit_request": true,
+  "next_task": "wait_for_GPT_confirmation",
   "needs_gpt_confirmation": true,
-  "updated_at": "2026-06-08 00:16:14"
+  "updated_at": "2026-06-08 00:20:55"
 }

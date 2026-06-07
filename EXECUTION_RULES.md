@@ -1,4 +1,4 @@
-﻿# EXECUTION_RULES
+# EXECUTION_RULES
 
 ## 执行原则
 1. 每轮只执行 NEXT_TASK.md 指定任务。
@@ -43,3 +43,9 @@
 - push 是否成功
 - 安全边界确认
 
+## No Foreground Window Rule - 2026-06-08 00:20:55
+
+- Automation scripts must not open folders or files by default.
+- Do not call explorer, Invoke-Item, Start-Process, os.startfile, or start to open output/reports/summary unless Tang Boss explicitly asks.
+- Keep optional open behavior behind `-OpenOutput` or `--open-output`.
+- Default behavior: generate files, write reports, and print/copy paths only.
