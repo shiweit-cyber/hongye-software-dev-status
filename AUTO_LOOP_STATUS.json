@@ -1,12 +1,11 @@
 {
-  "round": "HY-R041",
-  "status": "completed",
-  "current_task": "control console V2 menu integration",
+  "round": "HY-R042",
+  "status": "running",
+  "current_task": "confirmed single run mechanism",
   "auto_loop_enabled": false,
-  "auto_loop_mode": "manual_control_console_only",
-  "last_completed": "HY-R041 ? V2 ????????????",
-  "next_task": "HY-R042",
-  "needs_gpt_confirmation": true,
+  "auto_loop_mode": "finite_autoqueue_once",
   "infinite_loop": false,
-  "updated_at": "2026-06-07 23:44:42"
+  "next_task": "HY-R043",
+  "needs_gpt_confirmation": true,
+  "updated_at": "2026-06-08 00:07:32"
 }

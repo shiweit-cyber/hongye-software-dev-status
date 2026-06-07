@@ -1,0 +1,22 @@
+{
+  "task_id": "HY-R042",
+  "task_name": "confirmed single run mechanism",
+  "round": "HY-R042",
+  "status": "running",
+  "started_at": "2026-06-08 00:07:32",
+  "finished_at": "",
+  "input_files": [],
+  "output_files": [],
+  "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R042_confirmed_run_mechanism_report.md",
+  "commit_hash": "",
+  "push_success": false,
+  "error_message": "",
+  "safety_check": {
+    "real_customer_files_read": false,
+    "hongye_database_read": false,
+    "real_quote_generated": false,
+    "git_add_dot_used": false,
+    "force_push_used": false,
+    "infinite_loop": false
+  }
+}
