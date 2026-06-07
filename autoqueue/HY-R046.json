@@ -2,11 +2,13 @@
   "task_id": "HY-R046",
   "task_name": "confirmed quality control V2 run",
   "round": "HY-R046",
-  "status": "running",
+  "status": "done",
   "started_at": "2026-06-08 00:08:30",
-  "finished_at": "",
+  "finished_at": "2026-06-08 00:08:34",
   "input_files": [],
-  "output_files": [],
+  "output_files": [
+    "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R046_quality_control_v2_confirmed_run_report.md"
+  ],
   "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R046_quality_control_v2_confirmed_run_report.md",
   "commit_hash": "",
   "push_success": false,
