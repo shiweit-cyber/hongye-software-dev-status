@@ -1,13 +1,13 @@
-{
-  "platform": "Windows",
-  "round": "HY-R025",
-  "status": "completed",
-  "current_task": "Safe whitelist executor v1",
-  "next_task": "HY-R026",
-  "auto_loop_enabled": false,
-  "auto_loop_mode": "proposal_only_until_GPT_confirms",
-  "whitelist_allowed": true,
-  "blocked_by_safety": false,
-  "needs_gpt_confirmation": true,
-  "updated_at": "2026-06-07 20:56:20"
+﻿{
+    "next_recommended_round":  "HY-R027",
+    "round":  "HY-R026",
+    "platform":  "Windows",
+    "last_result":  "completed",
+    "last_completed_task":  "批量处理失败隔离与汇总总表",
+    "last_completed_round":  "HY-R026",
+    "next_recommended_task":  "GPT 写 NEXT_TASK 后 Codex 一次性自动执行闭环测试",
+    "auto_loop_mode":  "safe_whitelist_once",
+    "updated_at":  "2026-06-07 21:07:55",
+    "infinite_loop_enabled":  false,
+    "auto_loop_enabled":  false
 }
