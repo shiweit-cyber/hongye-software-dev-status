@@ -1,14 +1,13 @@
 # STATUS_NOW
 
-Current round: HY-R037
-Current task: low-risk auto task queue
+Current round: HY-R038
+Current subtask: HY-R038-01
+Current task: Single desensitized pipeline rerun
 Status: completed
 
-Completed tasks: 3
-Failed tasks: 0
+Summary: Task passed.
 
 auto_loop_enabled: false
-auto_loop_mode: low_risk_queue_once
-next_task: HY-R038
+auto_loop_mode: low_risk_business_queue_once
 
-Updated at: 2026-06-07 22:50:52
+Updated at: 2026-06-07 22:58:23

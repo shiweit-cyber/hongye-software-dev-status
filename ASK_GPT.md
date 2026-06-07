@@ -1,5 +1,5 @@
 # ASK_GPT
 
-HY-R037 low-risk auto task queue has completed.
+HY-R038 low-risk desensitized business queue is running or completed at HY-R038-01.
 
-Please review whether HY-R038 should continue with a stronger single-round safe business task or report index cleanup.
+Please review the generated reports and decide whether to continue to HY-R039.
