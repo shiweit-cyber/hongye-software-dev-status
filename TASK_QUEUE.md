@@ -1,9 +1,10 @@
 # TASK_QUEUE
 
-## Completed HY-R038
-- HY-R038-01 rerun single desensitized pipeline
-- HY-R038-02 rerun batch desensitized pipeline
-- HY-R038-03 rerun batch quality control
+## Completed HY-R039
+- Analyze remaining FIRE_DEFAULT entries
+- Add simulated category rules
+- Generate V4 quote draft JSON / CSV / XLSX locally
+- Run self-test
 
 ## Next
-- HY-R039 pending GPT confirmation
+- HY-R040 integrate V4 optimizer into main pipeline

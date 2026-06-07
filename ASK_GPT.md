@@ -1,5 +1,5 @@
 # ASK_GPT
 
-HY-R038 low-risk desensitized business queue has completed.
+HY-R039 FIRE_DEFAULT matching reduction is complete.
 
-Please review whether HY-R039 should continue with business stability testing, report indexing, or rule-quality analysis.
+FIRE_DEFAULT decreased from 28 to 11. Please decide whether HY-R040 should integrate V4 rules into the main pipeline.

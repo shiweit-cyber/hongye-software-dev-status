@@ -1,13 +1,16 @@
 {
   "platform": "Windows",
-  "round": "HY-R038",
+  "round": "HY-R039",
   "status": "completed",
-  "current_task": "low risk desensitized business queue",
+  "current_task": "FIRE_DEFAULT matching reduction",
   "auto_loop_enabled": false,
-  "auto_loop_mode": "low_risk_business_queue_once",
-  "last_completed": "HY-R038 低风险脱敏业务流水线自动队列",
-  "next_task": "HY-R039",
+  "auto_loop_mode": "single_function_task_once",
+  "last_completed": "HY-R039 FIRE_DEFAULT ????",
+  "next_task": "HY-R040",
   "needs_gpt_confirmation": true,
   "infinite_loop": false,
-  "updated_at": "2026-06-07 22:58:37"
+  "before_fire_default": 28,
+  "after_fire_default": 11,
+  "reduction": 17,
+  "updated_at": "2026-06-07 23:13:18"
 }
