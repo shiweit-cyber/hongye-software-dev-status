@@ -1,14 +1,13 @@
 {
   "platform": "Windows",
-  "round": "HY-R035",
+  "round": "HY-R036-01",
   "status": "completed",
-  "current_task": "desensitized pipeline integrity check and archive",
+  "current_task": "GitHub brain file continuity check",
   "auto_loop_enabled": false,
-  "auto_loop_mode": "single_safe_test_once",
-  "last_completed": "HY-R035 ?????????????????",
+  "auto_loop_mode": "three_round_safe_loop_once",
+  "infinite_loop": false,
+  "last_completed": "HY-R036-01 GitHub brain file continuity check",
   "next_task": "HY-R036",
   "needs_gpt_confirmation": true,
-  "integrity_passed": true,
-  "archive_created": true,
-  "updated_at": "2026-06-07 22:34:20"
+  "updated_at": "2026-06-07 22:44:28"
 }

@@ -1,20 +1,19 @@
 # NEXT_TASK
 
-## Current Recommended Round
-HY-R036
+Round: HY-R036-01
+Task Name: GitHub brain file continuity check
+Platform: Windows
 
-## Task Name
-Wait for GPT confirmation
+Task Target:
+Check required public GitHub brain files exist in the public status repository.
 
-## Platform
-Windows
-
-## Current Status
-HY-R035 desensitized pipeline integrity check and local archive creation has completed. GPT must explicitly confirm HY-R036 before the next single safe task.
-
-## Allowed Actions
-- read_status_files
+Allowed Actions:
+- read_next_task
+- parse_next_task
+- run_safe_task_executor
+- check_file_exists
 - generate_node_report
+- generate_status_json
 - update_status_now
 - update_ask_gpt
 - update_auto_loop_status
@@ -22,9 +21,28 @@ HY-R035 desensitized pipeline integrity check and local archive creation has com
 - git_commit_whitelisted_files
 - git_push
 
-## Forbidden Actions
-- do_not_read_real_customer_files
-- do_not_read_hongye_database
-- do_not_commit_real_quote_results
-- do_not_force_push
-- do_not_enable_infinite_loop
+Forbidden Actions:
+- read_real_customer_file
+- read_hongye_database
+- submit_real_quote_result
+- crack_dongle
+- bypass_authorization
+- modify_hyysn10
+- infinite_loop
+- long_background_run
+- git_add_dot
+- force_push
+- dangerous_task
+
+Safety Notes:
+- Do not read real customer files.
+- Do not read Hongye database.
+- Do not submit real quote results.
+- Do not crack or bypass dongle authorization.
+- Do not modify hyysn10.exe.
+- Do not start an infinite loop.
+- Do not run as a long background process.
+- Do not use git add .
+- Do not force push.
+
+Generated At: 2026-06-07 22:44:28
