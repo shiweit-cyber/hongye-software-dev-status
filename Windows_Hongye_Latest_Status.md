@@ -1,11 +1,12 @@
 ﻿# Windows Hongye Latest Status
 
-Round: HY-R010A
-Status: GUI automation blocked
+Round: HY-R014
+Status: Global autonomous progress completed
 
-- N10 started: yes
-- Main window detected: yes
-- Blocking prompt: 没有检测到软件狗信息
-- Import wizard entered: no
-- Real import success: no
-- Report: C:\Users\Administrator\Documents\宏业软件\04_AI交接\node_reports\HY-R010A_N10_GUI_Automation_Attempt_Report.md
+- N10 path: C:\Program Files\清单计价专家N10\hyysn10.exe
+- N10 version: 2.4.2606.14004
+- Test Excel: C:\Users\Administrator\Documents\宏业软件\08_import_test\HY-R008\HY-R007_宏业可导入清单草稿.xlsx
+- HY-R011 mapping generated: yes
+- HY-R012 metadata probe completed: yes
+- HY-R013 blocked: yes, real import not complete
+- Main blocker: 没有检测到软件狗信息

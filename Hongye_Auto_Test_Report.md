@@ -1,12 +1,11 @@
 ﻿# Hongye Auto Test Report
 
-Round: HY-R010A
+Round: HY-R014
 Platform: Windows
-Result: GUI automation attempted, blocked by N10 license/dongle prompt
+Result: Autonomous metadata/template progression completed
 
-- N10 started: yes
-- Main window detected: yes
-- Prompt: 没有检测到软件狗信息
-- Import wizard entered: no
+- HY-R011 mapping package: generated
+- HY-R012 GCFX metadata probe: completed
+- HY-R013 export precheck: blocked by N10 license/dongle prompt
 - Real import success: no
-- Screenshot: C:\Users\Administrator\Documents\宏业软件\04_AI交接\node_reports\HY-R010A_screenshots\HY-R010A_screen_20260607_175454.png
+- Safety boundary: passed

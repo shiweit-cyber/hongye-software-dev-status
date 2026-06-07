@@ -1,13 +1,13 @@
 ﻿# Hongye Latest Status
 
-Round: HY-R010A
+Round: HY-R014
 Platform: Windows
-Status: GUI automation blocked by N10 license/dongle prompt
+Status: Autonomous global progress completed
 
 Summary:
-- N10 started and main window was detected.
-- Prompt detected from screenshot: 没有检测到软件狗信息
-- Real import success: no
-- HY-R011 should remain blocked.
+- HY-R011 mapping package generated.
+- HY-R012 safe GCFX metadata probe completed.
+- HY-R013 save/export precheck recorded as blocked.
+- Real N10 import remains blocked by license/dongle prompt: 没有检测到软件狗信息.
 
-Safety: no real customer files, no raw GCFX/XLSX/PDF, no database, no credentials committed.
+Safety: no raw GCFX/XLSX/PDF, database, quote output, token, key, or password committed.
