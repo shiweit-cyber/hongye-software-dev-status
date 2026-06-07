@@ -2,13 +2,12 @@
 
 Round: HY-R010A
 Platform: Windows
-Status: GUI automation attempt completed
+Status: GUI automation blocked by N10 license/dongle prompt
 
 Summary:
-- N10 window detected: True
-- Main title: Form
-- Excel import entry found: False
-- Real import success: False
-- Failure point: No accessible import/Excel/list entry found in the current visible control tree.
+- N10 started and main window was detected.
+- Prompt detected from screenshot: 没有检测到软件狗信息
+- Real import success: no
+- HY-R011 should remain blocked.
 
 Safety: no real customer files, no raw GCFX/XLSX/PDF, no database, no credentials committed.
