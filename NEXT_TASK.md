@@ -1,11 +1,11 @@
 # NEXT_TASK
 
-Round: HY-R036-01
-Task Name: GitHub brain file continuity check
+Round: HY-R036-02
+Task Name: Auto executor continuity check
 Platform: Windows
 
 Task Target:
-Check required public GitHub brain files exist in the public status repository.
+Check NEXT_TASK reader, safe executor, whitelist, and business action map exist.
 
 Allowed Actions:
 - read_next_task
@@ -45,4 +45,4 @@ Safety Notes:
 - Do not use git add .
 - Do not force push.
 
-Generated At: 2026-06-07 22:44:28
+Generated At: 2026-06-07 22:44:30
