@@ -1,11 +1,11 @@
 # NEXT_TASK
 
-Round: HY-R036-02
-Task Name: Auto executor continuity check
+Round: HY-R036-03
+Task Name: Desensitized pipeline artifact continuity check
 Platform: Windows
 
 Task Target:
-Check NEXT_TASK reader, safe executor, whitelist, and business action map exist.
+Check desensitized pipeline, batch, quality-control outputs and HY-R035 archive exist.
 
 Allowed Actions:
 - read_next_task
@@ -45,4 +45,4 @@ Safety Notes:
 - Do not use git add .
 - Do not force push.
 
-Generated At: 2026-06-07 22:44:30
+Generated At: 2026-06-07 22:44:33
