@@ -1,0 +1,172 @@
+{
+  "platform": "Windows",
+  "round": "HY-R033",
+  "created_at": "2026-06-07 22:20:37",
+  "purpose": "business pipeline safe action map for future desensitized single-run automation",
+  "real_pipeline_executed": false,
+  "real_customer_files_read": false,
+  "hongye_database_read": false,
+  "auto_loop_enabled": false,
+  "actions": [
+    {
+      "action": "check_rules_library",
+      "module_round": "HY-R016",
+      "directory": "C:\\Users\\Administrator\\Documents\\宏业软件\\10_rules",
+      "directory_exists": true,
+      "risk_level": "safe_read_only",
+      "auto_execute_allowed": true,
+      "needs_gpt_confirmation": false,
+      "notes": "check only"
+    },
+    {
+      "action": "check_offline_import_simulator",
+      "module_round": "HY-R017",
+      "directory": "C:\\Users\\Administrator\\Documents\\宏业软件\\11_offline_import_simulator",
+      "directory_exists": true,
+      "risk_level": "safe_read_only",
+      "auto_execute_allowed": true,
+      "needs_gpt_confirmation": false,
+      "notes": "check only"
+    },
+    {
+      "action": "run_offline_import_simulator_with_desensitized_sample",
+      "module_round": "HY-R017",
+      "directory": "C:\\Users\\Administrator\\Documents\\宏业软件\\11_offline_import_simulator",
+      "directory_exists": true,
+      "risk_level": "safe_simulated_run",
+      "auto_execute_allowed": false,
+      "needs_gpt_confirmation": true,
+      "notes": "desensitized simulated run only after GPT confirmation"
+    },
+    {
+      "action": "check_quote_generator",
+      "module_round": "HY-R018",
+      "directory": "C:\\Users\\Administrator\\Documents\\宏业软件\\12_quote_generator",
+      "directory_exists": true,
+      "risk_level": "safe_read_only",
+      "auto_execute_allowed": true,
+      "needs_gpt_confirmation": false,
+      "notes": "check only"
+    },
+    {
+      "action": "run_quote_generator_with_desensitized_json",
+      "module_round": "HY-R018",
+      "directory": "C:\\Users\\Administrator\\Documents\\宏业软件\\12_quote_generator",
+      "directory_exists": true,
+      "risk_level": "safe_simulated_run",
+      "auto_execute_allowed": false,
+      "needs_gpt_confirmation": true,
+      "notes": "desensitized simulated run only after GPT confirmation"
+    },
+    {
+      "action": "check_pipeline_entry",
+      "module_round": "HY-R019",
+      "directory": "C:\\Users\\Administrator\\Documents\\宏业软件\\13_pipeline",
+      "directory_exists": true,
+      "risk_level": "safe_read_only",
+      "auto_execute_allowed": true,
+      "needs_gpt_confirmation": false,
+      "notes": "check only"
+    },
+    {
+      "action": "run_pipeline_with_desensitized_sample",
+      "module_round": "HY-R019",
+      "directory": "C:\\Users\\Administrator\\Documents\\宏业软件\\13_pipeline",
+      "directory_exists": true,
+      "risk_level": "safe_simulated_run",
+      "auto_execute_allowed": false,
+      "needs_gpt_confirmation": true,
+      "notes": "desensitized simulated run only after GPT confirmation"
+    },
+    {
+      "action": "check_quote_plugin",
+      "module_round": "HY-R020/HY-R021",
+      "directory": "C:\\Users\\Administrator\\Documents\\宏业软件\\14_quote_plugin_v2",
+      "directory_exists": true,
+      "risk_level": "safe_read_only",
+      "auto_execute_allowed": true,
+      "needs_gpt_confirmation": false,
+      "notes": "check only"
+    },
+    {
+      "action": "run_quote_plugin_with_desensitized_sample",
+      "module_round": "HY-R020/HY-R021",
+      "directory": "C:\\Users\\Administrator\\Documents\\宏业软件\\14_quote_plugin_v2",
+      "directory_exists": true,
+      "risk_level": "safe_simulated_run",
+      "auto_execute_allowed": false,
+      "needs_gpt_confirmation": true,
+      "notes": "desensitized simulated run only after GPT confirmation"
+    },
+    {
+      "action": "check_batch_pipeline",
+      "module_round": "HY-R022",
+      "directory": "C:\\Users\\Administrator\\Documents\\宏业软件\\15_batch_pipeline",
+      "directory_exists": true,
+      "risk_level": "safe_read_only",
+      "auto_execute_allowed": true,
+      "needs_gpt_confirmation": false,
+      "notes": "check only"
+    },
+    {
+      "action": "run_batch_pipeline_with_copied_desensitized_samples",
+      "module_round": "HY-R022",
+      "directory": "C:\\Users\\Administrator\\Documents\\宏业软件\\15_batch_pipeline",
+      "directory_exists": true,
+      "risk_level": "safe_simulated_run",
+      "auto_execute_allowed": false,
+      "needs_gpt_confirmation": true,
+      "notes": "desensitized simulated run only after GPT confirmation"
+    },
+    {
+      "action": "check_batch_quality_control",
+      "module_round": "HY-R026",
+      "directory": "C:\\Users\\Administrator\\Documents\\宏业软件\\17_batch_quality_control",
+      "directory_exists": true,
+      "risk_level": "safe_read_only",
+      "auto_execute_allowed": true,
+      "needs_gpt_confirmation": false,
+      "notes": "check only"
+    },
+    {
+      "action": "run_batch_quality_control_on_desensitized_outputs",
+      "module_round": "HY-R026",
+      "directory": "C:\\Users\\Administrator\\Documents\\宏业软件\\17_batch_quality_control",
+      "directory_exists": true,
+      "risk_level": "safe_simulated_run",
+      "auto_execute_allowed": false,
+      "needs_gpt_confirmation": true,
+      "notes": "desensitized simulated run only after GPT confirmation"
+    },
+    {
+      "action": "read_real_customer_file",
+      "module_round": "N/A",
+      "directory": "N/A",
+      "directory_exists": false,
+      "risk_level": "blocked_by_safety",
+      "auto_execute_allowed": false,
+      "needs_gpt_confirmation": false,
+      "notes": "blocked; never auto execute"
+    },
+    {
+      "action": "read_hongye_database",
+      "module_round": "N/A",
+      "directory": "N/A",
+      "directory_exists": false,
+      "risk_level": "blocked_by_safety",
+      "auto_execute_allowed": false,
+      "needs_gpt_confirmation": false,
+      "notes": "blocked; never auto execute"
+    },
+    {
+      "action": "generate_real_quote_result",
+      "module_round": "N/A",
+      "directory": "N/A",
+      "directory_exists": false,
+      "risk_level": "blocked_by_safety",
+      "auto_execute_allowed": false,
+      "needs_gpt_confirmation": false,
+      "notes": "blocked; never auto execute"
+    }
+  ]
+}

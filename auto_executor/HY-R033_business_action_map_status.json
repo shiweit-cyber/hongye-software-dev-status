@@ -1,0 +1,21 @@
+{
+  "platform": "Windows",
+  "round": "HY-R033",
+  "status": "completed",
+  "action_map_created": true,
+  "mapped_actions_count": 16,
+  "safe_read_only_count": 7,
+  "safe_simulated_run_count": 6,
+  "needs_gpt_confirmation_count": 6,
+  "blocked_by_safety_count": 3,
+  "parsed_round": "HY-R033",
+  "recommended_next_round": "HY-R034",
+  "whitelist_allowed": true,
+  "blocked_by_safety": false,
+  "auto_loop_enabled": false,
+  "auto_loop_mode": "single_safe_test_once",
+  "real_pipeline_executed": false,
+  "real_customer_files_read": false,
+  "hongye_database_read": false,
+  "updated_at": "2026-06-07 22:23:01"
+}
