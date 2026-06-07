@@ -1,14 +1,12 @@
 ﻿# Windows Hongye Latest Status
 
-Round: HY-R010
-Status: Manual verification template prepared
+Round: HY-R010A
+Status: GUI automation attempt completed
 
-Checks:
-- HY-R007 Excel exists: True
-- HY-R007 Excel path: C:\Users\Administrator\Documents\宏业软件\08_import_test\HY-R008\HY-R007_宏业可导入清单草稿.xlsx
-- Hongye N10 detected: True
-- Hongye N10 executable: C:\Program Files\清单计价专家N10\hyysn10.exe
-- Hongye N10 version: 2.4.2606.14004
-
-Current stop point:
-- Waiting for Tang boss to manually test Excel import in Hongye N10 and fill verification results.
+- N10 started/existing process: True
+- Main window detected: True
+- Main title: Form
+- Import entry found: False
+- Entered wizard: False
+- Real import success: False
+- Report: C:\Users\Administrator\Documents\宏业软件\04_AI交接\node_reports\HY-R010A_N10_GUI_Automation_Attempt_Report.md

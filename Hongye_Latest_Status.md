@@ -1,16 +1,14 @@
 ﻿# Hongye Latest Status
 
-Round: HY-R010
+Round: HY-R010A
 Platform: Windows
-Status: Waiting for manual Hongye N10 Excel import verification
+Status: GUI automation attempt completed
 
 Summary:
-- HY-R010 verification template has been generated.
-- Windows found HY-R007 Excel test file: True
-- Windows found Hongye N10 executable: True
-- Next action requires Tang boss manual operation in Hongye N10.
+- N10 window detected: True
+- Main title: Form
+- Excel import entry found: False
+- Real import success: False
+- Failure point: No accessible import/Excel/list entry found in the current visible control tree.
 
-Safety:
-- No automatic Hongye operation.
-- No original GCFX/XLSX/PDF committed.
-- No database or credential committed.
+Safety: no real customer files, no raw GCFX/XLSX/PDF, no database, no credentials committed.
