@@ -1,16 +1,12 @@
 {
-  "round": "HY-AUTOQUEUE-01",
-  "status": "partially_completed",
-  "current_task": "finite autoqueue HY-R042 to HY-R046",
+  "round": "HY-AUTOQUEUE-PLAN-03",
+  "status": "completed",
+  "current_task": "product roadmap and precise test queue",
   "auto_loop_enabled": false,
-  "auto_loop_mode": "finite_autoqueue_once",
-  "infinite_loop": false,
-  "tasks_total": 5,
-  "tasks_completed": 3,
-  "tasks_failed": 2,
-  "tasks_blocked": 0,
-  "last_completed": "HY-AUTOQUEUE-01",
-  "next_task": "HY-R047",
+  "auto_loop_mode": "planning_only",
+  "execute_now": false,
+  "planned_rounds": "HY-R047 to HY-R058",
+  "next_task": "HY-AUTOQUEUE-02",
   "needs_gpt_confirmation": true,
-  "updated_at": "2026-06-08 00:08:43"
+  "updated_at": "2026-06-08 00:16:14"
 }
