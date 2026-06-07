@@ -1,13 +1,13 @@
 {
   "platform": "Windows",
-  "round": "HY-R030",
+  "round": "HY-R031",
   "status": "completed",
-  "current_task": "Safe executor dynamic round regression test",
+  "current_task": "single safe whitelist extension test",
   "auto_loop_enabled": false,
   "auto_loop_mode": "single_safe_test_once",
-  "last_completed": "HY-R030 ????????",
-  "next_task": "HY-R031",
+  "last_completed": "HY-R031 ???????????",
+  "next_task": "HY-R032",
   "needs_gpt_confirmation": true,
-  "regression_passed": true,
-  "updated_at": "2026-06-07 21:37:10"
+  "whitelist_passed": true,
+  "updated_at": "2026-06-07 22:11:34"
 }
