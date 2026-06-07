@@ -1,0 +1,45 @@
+{
+  "platform": "Windows",
+  "round": "HY-R034",
+  "task": "single desensitized pipeline run test",
+  "status": "completed",
+  "next_task_read": true,
+  "parsed_round": "HY-R034",
+  "recommended_next_round": "HY-R035",
+  "whitelist_allowed": true,
+  "whitelist_passed": true,
+  "blocked_by_safety": false,
+  "health_check_completed": true,
+  "files_checked": 10,
+  "files_existing": 10,
+  "files_missing": 0,
+  "missing_files": [],
+  "pipeline": {
+    "status": "completed",
+    "standard_rows": 300,
+    "quote_rows": 300,
+    "review_count": 28,
+    "fire_default": 28
+  },
+  "batch_pipeline": {
+    "input_count": 3,
+    "success_count": 3,
+    "failed_count": 0,
+    "total_rows": 900,
+    "total_review_count": 84,
+    "total_fire_default": 84
+  },
+  "quality_control": {
+    "success_files": 3,
+    "failed_files": 0,
+    "total_review_count": 84,
+    "total_fire_default": 84
+  },
+  "real_customer_files_read": false,
+  "hongye_database_read": false,
+  "real_quote_generated": false,
+  "auto_loop_enabled": false,
+  "auto_loop_mode": "single_safe_test_once",
+  "commit_pushed": true,
+  "updated_at": "2026-06-07 22:30:31"
+}

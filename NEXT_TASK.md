@@ -1,7 +1,7 @@
 # NEXT_TASK
 
 ## Current Recommended Round
-HY-R034
+HY-R035
 
 ## Task Name
 Wait for GPT confirmation
@@ -10,7 +10,7 @@ Wait for GPT confirmation
 Windows
 
 ## Current Status
-HY-R033 business pipeline safe action map has been completed. GPT must explicitly confirm HY-R034 before any safe simulated pipeline run.
+HY-R034 single desensitized pipeline run test has completed. GPT must explicitly confirm HY-R035 before the next single safe task.
 
 ## Allowed Actions
 - read_status_files
