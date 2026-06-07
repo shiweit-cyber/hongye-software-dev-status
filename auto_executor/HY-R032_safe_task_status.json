@@ -1,0 +1,23 @@
+{
+  "platform": "Windows",
+  "round": "HY-R032",
+  "task": "pre-pipeline safety mapping test",
+  "status": "completed",
+  "next_task_read": true,
+  "parsed_round": "HY-R032",
+  "parsed_task_name": "业务流水线前安全映射测试",
+  "recommended_next_round": "HY-R033",
+  "whitelist_allowed": true,
+  "whitelist_passed": true,
+  "blocked_by_safety": false,
+  "missing_fields": [],
+  "health_check_completed": true,
+  "files_checked": 10,
+  "files_existing": 10,
+  "files_missing": 0,
+  "missing_files": [],
+  "auto_loop_enabled": false,
+  "auto_loop_mode": "single_safe_test_once",
+  "commit_pushed": true,
+  "updated_at": "2026-06-07 22:15:07"
+}
