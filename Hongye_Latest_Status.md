@@ -1,7 +1,7 @@
 # Hongye Latest Status - HY-AUTO
 
 ## 当前状态
-宏业自驱 runner 已接管路线判断，本轮状态：running。
+宏业自驱 runner 已接管路线判断，本轮状态：blocked。
 
 ## 当前路线
 HY-R009 - Windows GCFX 样本扫描归类学习 + HY-R008 Excel 导入测试准备

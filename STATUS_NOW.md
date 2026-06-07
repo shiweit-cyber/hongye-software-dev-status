@@ -1,7 +1,7 @@
 # STATUS_NOW - HY-AUTO
 
 ## 时间
-2026-06-07 17:44:12
+2026-06-07 17:44:52
 
 ## 运行模式
 self-check
@@ -13,7 +13,7 @@ HY-R009
 Windows GCFX 样本扫描归类学习 + HY-R008 Excel 导入测试准备
 
 ## 本轮结果
-- 状态：running
+- 状态：blocked
 - 动作：尚未执行
 - 停止原因：HY-R009 缺少 Windows GCFX 样本目录：input/windows_gcfx_samples。
 - 是否可进入自主推进模式：no
@@ -34,7 +34,7 @@ Windows GCFX 样本扫描归类学习 + HY-R008 Excel 导入测试准备
 
 ## Git 最新提交
 ```text
-309541e add_hongye_self_driving_runner
+93a841c add_hongye_self_driving_runner
 ```
 
 ## Git 当前状态
