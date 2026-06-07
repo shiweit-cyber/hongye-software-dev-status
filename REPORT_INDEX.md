@@ -1,7 +1,7 @@
 # REPORT_INDEX
 
 ## 时间
-2026-06-07 17:44:52
+2026-06-07 17:45:40
 
 ## 最新报告文件
 ```text
@@ -29,11 +29,11 @@
 
 ## 最新 Git 提交
 ```text
+26278ed add_hongye_self_driving_runner
 93a841c add_hongye_self_driving_runner
 309541e add_hongye_self_driving_runner
 2263ead HY-R007 upload for Windows import test
 f481252 HY-R008 prepare import format verification
-6fbc001 HY-R007 import formats and gcfx template probe
 ```
 
 ## 当前 Git 状态

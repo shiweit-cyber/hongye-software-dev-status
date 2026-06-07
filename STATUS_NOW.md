@@ -1,7 +1,7 @@
 # STATUS_NOW - HY-AUTO
 
 ## 时间
-2026-06-07 17:44:52
+2026-06-07 17:45:40
 
 ## 运行模式
 self-check
@@ -14,7 +14,7 @@ Windows GCFX 样本扫描归类学习 + HY-R008 Excel 导入测试准备
 
 ## 本轮结果
 - 状态：blocked
-- 动作：尚未执行
+- 动作：停止并报告
 - 停止原因：HY-R009 缺少 Windows GCFX 样本目录：input/windows_gcfx_samples。
 - 是否可进入自主推进模式：no
 - 最新参考报告：/Users/tang/Projects/hongye-software-dev/04_AI交接/node_reports/Mac_Template_Field_Analysis_Report.md
@@ -34,7 +34,7 @@ Windows GCFX 样本扫描归类学习 + HY-R008 Excel 导入测试准备
 
 ## Git 最新提交
 ```text
-93a841c add_hongye_self_driving_runner
+26278ed add_hongye_self_driving_runner
 ```
 
 ## Git 当前状态
