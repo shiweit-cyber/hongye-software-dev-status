@@ -1,26 +1,23 @@
 # Hongye Git Bridge Status
 
 ## 时间
-2026-06-07 13:09:51
+2026-06-07 13:19:50
 
 ## 当前模式
 Git 链接稳定版：前台单轮执行 + GitHub 状态同步 + GPT 判断下一步。
 
 ## 本轮结论
-真实 DB3 查询型匹配 V3 已完成。
+DB3 字段映射配置 + 人工复核 Excel V1 已完成。
 
 ## 本轮结果
-- V3 脚本：07_scripts/match_hongye_quota_v3_db3_query.py
-- V3 测试：tests/test_match_hongye_quota_v3_db3_query.py
-- 匹配成功记录数：2
-- 多候选匹配数量：2
-- 需要人工复核数量：2
-- 每条最多候选数：10
-- V3 匹配结果：output/hongye_quota_match_result_v3_db3.json（不提交）
-- V3 匹配草稿：output/宏业标准版报价清单草稿_v3_db3_matched.xlsx（不提交）
+- 字段映射配置：05_字段映射/hongye_db3_field_mapping_v1.json
+- 人工复核脚本：07_scripts/generate_hongye_manual_review_v1.py
+- V3 输出已增强：best_match、top 3 candidates、confidence_gap、review_required、review_reasons
+- 复核行数：2
+- 需要人工复核：2
+- 每条最多展示候选：3
+- 本地复核 JSON：output/hongye_quota_manual_review_v1.json（不提交）
+- 本地复核 Excel：output/宏业定额匹配人工复核_v1.xlsx（不提交）
 
 ## 安全边界
-只读 DB3 查询，不写数据库，不使用 SELECT *，不查询或输出价格字段，不提交 output、DB3、原始 XLSX、token/key/密码。
-
-## 项目方向
-宏业自动报价单 / 报价清单生成系统。
+未提交 DB3、output、原始 XLSX、真实价格数据、token/key/密码；未处理 CAD/LISP/DWG/DXF。
