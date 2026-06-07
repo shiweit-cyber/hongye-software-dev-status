@@ -1,41 +1,21 @@
-# HY-R045 confirmed batch V2 pipeline run Report
+# HY-R045 Corrected Confirmed Run Report
 
 - Platform: Windows
 - Round: HY-R045
-- Status: failed
+- Status: done
 - Menu task: run_batch_desensitized_pipeline_v2
+- Correction note: previous failed status was caused by UnicodeEncodeError while printing console JSON in GBK terminal; the V2 task was rerun after UTF-8 stdout fix and passed.
 - Request cleared: True
-- Commit hash: 
-- Push success: False
 
 ## Metrics
-- Single rows: 
-- Single FIRE_DEFAULT: 
-- Single review: 
-- Batch rows: 
-- Batch FIRE_DEFAULT: 
-- Batch review: 
-- QC success files: 
-- QC failed files: 
-
-## Raw Result
-```json
-{
-  "console_result": {
-    "cmd": [
-      "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
-      "C:\\Users\\Administrator\\Documents\\宏业软件\\21_auto_control_console\\auto_control_console_v3.py",
-      "--run-confirmed"
-    ],
-    "code": 1,
-    "stdout": "",
-    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\Administrator\\Documents\\��ҵ����\\21_auto_control_console\\auto_control_console_v3.py\", line 208, in <module>\n    main()\n  File \"C:\\Users\\Administrator\\Documents\\��ҵ����\\21_auto_control_console\\auto_control_console_v3.py\", line 204, in main\n    print(json.dumps(payload, ensure_ascii=False, indent=2))\nUnicodeEncodeError: 'gbk' codec can't encode character '\\ufffd' in position 1545: illegal multibyte sequence\n",
-    "json": {}
-  },
-  "metrics": {},
-  "passed": false
-}
-```
+- Single rows: 300
+- Single FIRE_DEFAULT: 11
+- Single review: 11
+- Batch rows: 900
+- Batch FIRE_DEFAULT: 33
+- Batch review: 33
+- QC success files: 3
+- QC failed files: 0
 
 ## Safety
 - No real customer files were read.
