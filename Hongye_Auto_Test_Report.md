@@ -1,11 +1,11 @@
 ﻿# Hongye Auto Test Report
 
-Round: HY-R015
+Round: HY-R016
 Platform: Windows
-Result: N10 blocker checked, offline tasks continued
+Result: Offline rules and candidate package completed
 
-- N10 prompt still active: yes
-- Learning mode entry attempt: did not enter main UI
-- Real import success: no
-- Weekly report script generated: yes
+- Header mapping rules: generated
+- Candidate Excel: generated
+- HY-R017 retry plan: generated
+- Real N10 import: not attempted; authorization still blocked
 - Safety boundary: passed
