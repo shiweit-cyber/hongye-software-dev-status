@@ -1,12 +1,13 @@
 {
   "platform": "Windows",
-  "round": "HY-R029",
+  "round": "HY-R030",
   "status": "completed",
-  "current_task": "修正白名单执行器动态轮次识别",
+  "current_task": "Safe executor dynamic round regression test",
   "auto_loop_enabled": false,
   "auto_loop_mode": "single_safe_test_once",
-  "last_completed": "HY-R029 修正白名单执行器动态轮次识别",
-  "next_task": "HY-R030",
+  "last_completed": "HY-R030 ????????",
+  "next_task": "HY-R031",
   "needs_gpt_confirmation": true,
-  "updated_at": "2026-06-07 21:33:08"
+  "regression_passed": true,
+  "updated_at": "2026-06-07 21:37:10"
 }
