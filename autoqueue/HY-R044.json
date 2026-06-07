@@ -2,15 +2,17 @@
   "task_id": "HY-R044",
   "task_name": "confirmed single V2 pipeline run",
   "round": "HY-R044",
-  "status": "running",
+  "status": "failed",
   "started_at": "2026-06-08 00:07:58",
-  "finished_at": "",
+  "finished_at": "2026-06-08 00:08:04",
   "input_files": [],
-  "output_files": [],
+  "output_files": [
+    "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R044_single_v2_confirmed_run_report.md"
+  ],
   "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R044_single_v2_confirmed_run_report.md",
   "commit_hash": "",
   "push_success": false,
-  "error_message": "",
+  "error_message": "task validation failed",
   "safety_check": {
     "real_customer_files_read": false,
     "hongye_database_read": false,
