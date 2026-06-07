@@ -1,5 +1,5 @@
 # ASK_GPT
 
-HY-R038 low-risk desensitized business queue is running or completed at HY-R038-03.
+HY-R038 low-risk desensitized business queue has completed.
 
-Please review the generated reports and decide whether to continue to HY-R039.
+Please review whether HY-R039 should continue with business stability testing, report indexing, or rule-quality analysis.

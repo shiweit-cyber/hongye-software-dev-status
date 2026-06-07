@@ -1,0 +1,108 @@
+{
+  "platform": "Windows",
+  "round": "HY-R038",
+  "status": "completed",
+  "total_tasks": 3,
+  "completed_tasks": 3,
+  "failed_tasks": 0,
+  "blocked_tasks": 0,
+  "single_pipeline_passed": true,
+  "batch_pipeline_passed": true,
+  "quality_control_passed": true,
+  "auto_loop_enabled": false,
+  "auto_loop_mode": "low_risk_business_queue_once",
+  "infinite_loop": false,
+  "latest_commit": "0c1086d HY-R038-03 rerun batch quality control",
+  "push_success": true,
+  "recommended_next_round": "HY-R039",
+  "tasks": [
+    {
+      "task_id": "HY-R038-01",
+      "task_name": "Single desensitized pipeline rerun",
+      "status": "completed",
+      "expected_metrics": {
+        "standardized_rows": 300,
+        "quote_rows": 300,
+        "fire_default": 28,
+        "review_count": 28
+      },
+      "actual_metrics": {
+        "standardized_rows": 300,
+        "quote_rows": 300,
+        "fire_default": 28,
+        "review_count": 28
+      },
+      "passed": true,
+      "error_message": "",
+      "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\20_low_risk_business_queue\\reports\\HY-R038-01_single_pipeline_rerun.md",
+      "public_report_path": "C:\\Users\\Administrator\\Documents\\hongye-software-dev-status\\node_reports\\HY-R038-01_single_pipeline_rerun.md",
+      "safe_executor_exit_code": 0,
+      "commit": "0e8b07c HY-R038-01 rerun single desensitized pipeline",
+      "push_success": true,
+      "push_error": ""
+    },
+    {
+      "task_id": "HY-R038-02",
+      "task_name": "Batch desensitized pipeline rerun",
+      "status": "completed",
+      "expected_metrics": {
+        "input_count": 3,
+        "success_count": 3,
+        "failed_count": 0,
+        "total_rows": 900,
+        "total_fire_default": 84,
+        "total_review_count": 84
+      },
+      "actual_metrics": {
+        "input_count": 3,
+        "success_count": 3,
+        "failed_count": 0,
+        "total_rows": 900,
+        "total_fire_default": 84,
+        "total_review_count": 84
+      },
+      "passed": true,
+      "error_message": "",
+      "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\20_low_risk_business_queue\\reports\\HY-R038-02_batch_pipeline_rerun.md",
+      "public_report_path": "C:\\Users\\Administrator\\Documents\\hongye-software-dev-status\\node_reports\\HY-R038-02_batch_pipeline_rerun.md",
+      "safe_executor_exit_code": 0,
+      "commit": "f69772a HY-R038-02 rerun batch desensitized pipeline",
+      "push_success": true,
+      "push_error": ""
+    },
+    {
+      "task_id": "HY-R038-03",
+      "task_name": "Batch quality control rerun",
+      "status": "completed",
+      "expected_metrics": {
+        "success_dirs_exist": true,
+        "failed_dirs_exist": true,
+        "review_dirs_exist": true,
+        "summary_dirs_exist": true,
+        "success_files": 3,
+        "failed_files": 0,
+        "total_review_count": 84,
+        "total_fire_default": 84
+      },
+      "actual_metrics": {
+        "success_dirs_exist": true,
+        "failed_dirs_exist": true,
+        "review_dirs_exist": true,
+        "summary_dirs_exist": true,
+        "success_files": 3,
+        "failed_files": 0,
+        "total_review_count": 84,
+        "total_fire_default": 84
+      },
+      "passed": true,
+      "error_message": "",
+      "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\20_low_risk_business_queue\\reports\\HY-R038-03_quality_control_rerun.md",
+      "public_report_path": "C:\\Users\\Administrator\\Documents\\hongye-software-dev-status\\node_reports\\HY-R038-03_quality_control_rerun.md",
+      "safe_executor_exit_code": 0,
+      "commit": "0c1086d HY-R038-03 rerun batch quality control",
+      "push_success": true,
+      "push_error": ""
+    }
+  ],
+  "updated_at": "2026-06-07 22:58:37"
+}

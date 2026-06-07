@@ -3,12 +3,11 @@
   "round": "HY-R038",
   "status": "completed",
   "current_task": "low risk desensitized business queue",
-  "current_subtask": "HY-R038-03",
   "auto_loop_enabled": false,
   "auto_loop_mode": "low_risk_business_queue_once",
-  "last_completed": "HY-R038-03 Batch quality control rerun",
+  "last_completed": "HY-R038 低风险脱敏业务流水线自动队列",
   "next_task": "HY-R039",
   "needs_gpt_confirmation": true,
   "infinite_loop": false,
-  "updated_at": "2026-06-07 22:58:34"
+  "updated_at": "2026-06-07 22:58:37"
 }

@@ -1,9 +1,9 @@
 # TASK_QUEUE
 
-## HY-R038 low-risk desensitized business queue
+## Completed HY-R038
+- HY-R038-01 rerun single desensitized pipeline
+- HY-R038-02 rerun batch desensitized pipeline
+- HY-R038-03 rerun batch quality control
 
-- HY-R038-01: single desensitized pipeline rerun
-- HY-R038-02: batch desensitized pipeline rerun
-- HY-R038-03: batch quality control rerun
-
-Current subtask: HY-R038-03
+## Next
+- HY-R039 pending GPT confirmation
