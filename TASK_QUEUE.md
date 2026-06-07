@@ -1,10 +1,10 @@
 # TASK_QUEUE
 
-## Completed HY-R039
-- Analyze remaining FIRE_DEFAULT entries
-- Add simulated category rules
-- Generate V4 quote draft JSON / CSV / XLSX locally
-- Run self-test
+## Completed HY-R040
+- Added run_hongye_pipeline_v2.py
+- Added run_batch_pipeline_v2.py
+- Added batch_quality_control_v2.py
+- Generated V2 reports and outputs
 
 ## Next
-- HY-R040 integrate V4 optimizer into main pipeline
+- HY-R041 pending GPT confirmation

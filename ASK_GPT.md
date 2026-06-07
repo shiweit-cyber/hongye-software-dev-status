@@ -1,5 +1,5 @@
 # ASK_GPT
 
-HY-R039 FIRE_DEFAULT matching reduction is complete.
+HY-R040 integrated the HY-R039 V4 optimizer into V2 single, batch, and QC pipelines.
 
-FIRE_DEFAULT decreased from 28 to 11. Please decide whether HY-R040 should integrate V4 rules into the main pipeline.
+Please decide whether HY-R041 should add V2 entries into the control console or continue reducing the remaining 11 FIRE_DEFAULT rows.

@@ -1,15 +1,14 @@
 # NEXT_TASK
 
-Round: HY-R040
-Task Name: Integrate HY-R039 V4 FIRE_DEFAULT optimizer into main pipeline
+Round: HY-R041
+Task Name: Pending GPT confirmation after HY-R040
 Platform: Windows
 
 Task Target:
-GPT should confirm whether to connect HY-R039 V4 optimization rules into 13_pipeline and 15_batch_pipeline.
+GPT should decide whether to add V2 entries into the auto control console or continue reducing the remaining FIRE_DEFAULT rows.
 
 Allowed Actions:
 - read_status_files
-- update_pipeline_with_desensitized_rules
 - generate_node_report
 - update_status_now
 - update_ask_gpt

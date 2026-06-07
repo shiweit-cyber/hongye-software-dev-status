@@ -1,16 +1,14 @@
 # STATUS_NOW
 
-Current round: HY-R039
-Current task: FIRE_DEFAULT matching reduction
+Current round: HY-R040
+Current task: Integrate V4 optimizer into main pipeline
 Status: completed
 
-Before FIRE_DEFAULT: 28
-After FIRE_DEFAULT: 11
-Reduction: 17
-Review count: 11
-
-Project function progress resumed beyond automation foundation.
+Single FIRE_DEFAULT: 28 -> 11
+Batch FIRE_DEFAULT: 84 -> 33
+QC review count: 84 -> 33
+V1 preserved: true
 auto_loop_enabled: false
-next_task: HY-R040
+next_task: HY-R041
 
-Updated at: 2026-06-07 23:13:18
+Updated at: 2026-06-07 23:25:44
