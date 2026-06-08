@@ -1,12 +1,31 @@
 {
-  "round": "HY-NO-FOREGROUND-WINDOW",
+  "round": "HY-R042",
+  "task": "报价工作簿模板 V1",
   "status": "completed",
-  "current_task": "disable default foreground window opening",
+  "current_strategy": "single_round_only",
   "auto_loop_enabled": false,
-  "auto_loop_mode": "manual_or_confirmed_only",
-  "foreground_window_default_allowed": false,
-  "open_output_requires_explicit_request": true,
-  "next_task": "wait_for_GPT_confirmation",
-  "needs_gpt_confirmation": true,
-  "updated_at": "2026-06-08 00:20:55"
+  "auto_guard_enabled": false,
+  "executed_rounds": ["HY-R042"],
+  "not_executed_rounds": ["HY-R043", "HY-R044", "HY-R045", "HY-R046", "HY-R047", "HY-R048", "HY-R049", "HY-R050", "HY-R051"],
+  "outputs": {
+    "workbook": "C:\\Users\\Administrator\\Documents\\宏业软件\\28_quote_workbook_template\\HY-R042_quote_workbook_v1.xlsx",
+    "node_report": "C:\\Users\\Administrator\\Documents\\宏业软件\\04_AI交接\\node_reports\\HY-R042_Quote_Workbook_Template_V1_Report.md",
+    "status_json": "C:\\Users\\Administrator\\Documents\\宏业软件\\28_quote_workbook_template\\HY-R042_status.json"
+  },
+  "metrics": {
+    "detail_rows": 300,
+    "review_rows": 11,
+    "fire_default_count": 11,
+    "total_amount": 39293506.93,
+    "price_source": "simulated_for_test",
+    "self_test_status": "passed"
+  },
+  "safety": {
+    "real_customer_files_read": false,
+    "hongye_database_read": false,
+    "real_quote_generated": false,
+    "excel_or_folder_opened": false
+  },
+  "next_task": "HY-R043 任意 Excel 表头识别增强 V1",
+  "updated_at": "2026-06-08T14:12:23+08:00"
 }
