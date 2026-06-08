@@ -1,22 +1,26 @@
 # STATUS_NOW
 
-当前轮次：HY-R042
-当前任务：报价工作簿模板 V1
+当前轮次：HY-R043
+当前任务：任意 Excel 表头识别增强 V1
 当前状态：completed
 
-当前策略：一条一条执行，不再一次性跑 10 轮；本轮只执行 HY-R042，未执行 HY-R043 或后续任务，未启动自动守护或无限循环。
+当前策略：一条一条执行，不跑多轮队列；本轮只执行 HY-R043，未执行 HY-R044 或后续任务，未启动自动守护或无限循环。
 
 本轮产物：
-- Excel 工作簿：C:\Users\Administrator\Documents\宏业软件\28_quote_workbook_template\HY-R042_quote_workbook_v1.xlsx
-- 本轮报告：C:\Users\Administrator\Documents\宏业软件\04_AI交接\node_reports\HY-R042_Quote_Workbook_Template_V1_Report.md
-- 状态 JSON：C:\Users\Administrator\Documents\宏业软件\28_quote_workbook_template\HY-R042_status.json
+- 表头识别脚本：C:\Users\Administrator\Documents\宏业软件\30_header_recognition_v1\header_recognizer_v1.py
+- 表头别名配置：C:\Users\Administrator\Documents\宏业软件\30_header_recognition_v1\header_alias_rules.json
+- 标准表头测试 Excel：C:\Users\Administrator\Documents\宏业软件\30_header_recognition_v1\sample_standard_headers.xlsx
+- 别名表头测试 Excel：C:\Users\Administrator\Documents\宏业软件\30_header_recognition_v1\sample_alias_headers.xlsx
+- 乱序表头测试 Excel：C:\Users\Administrator\Documents\宏业软件\30_header_recognition_v1\sample_shuffled_headers.xlsx
+- 识别结果 JSON：C:\Users\Administrator\Documents\宏业软件\30_header_recognition_v1\HY-R043_header_recognition_result.json
+- 识别结果 CSV：C:\Users\Administrator\Documents\宏业软件\30_header_recognition_v1\HY-R043_header_recognition_result.csv
+- 本轮报告：C:\Users\Administrator\Documents\宏业软件\04_AI交接\node_reports\HY-R043_Header_Recognition_V1_Report.md
 
 验收摘要：
-- 工作表：封面、分部分项清单、人工复核清单、费用汇总、说明。
-- 分部分项清单行数：300。
-- 人工复核清单行数：11。
-- 合价总计：39293506.93。
-- 价格来源：simulated_for_test。
+- 三份测试 Excel 均真实生成。
+- 每份测试 Excel 均识别 8 个标准字段。
+- 乱序表头识别成功。
+- 字段识别成功率：100%。
 - 自测状态：passed。
 
-安全边界：未读取真实客户文件，未读取宏业数据库，未生成真实报价成果，未自动打开 Excel 或文件夹。
+安全边界：未读取真实客户文件，未读取宏业数据库，未生成真实报价成果，未自动打开 Excel、文件夹、资源管理器、reports/output。
