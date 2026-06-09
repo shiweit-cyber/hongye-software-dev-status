@@ -1,0 +1,79 @@
+{
+  "task_id": "HY-R047",
+  "task_name": "批量报价工作簿生成 V1",
+  "status": "completed",
+  "platform": "Windows",
+  "generated_at": "2026-06-09 15:16:29",
+  "input_dir": "C:\\Users\\Administrator\\Documents\\宏业软件\\15_batch_pipeline\\input",
+  "output_dir": "C:\\Users\\Administrator\\Documents\\宏业软件\\34_batch_quote_workbooks_v1",
+  "index_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\34_batch_quote_workbooks_v1\\HY-R047_batch_quote_index.xlsx",
+  "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\04_AI交接\\node_reports\\HY-R047_Batch_Quote_Workbooks_V1_Report.md",
+  "sample_count": 3,
+  "completed_count": 3,
+  "failed_count": 0,
+  "workbook_count": 3,
+  "self_test_result": "passed",
+  "results": [
+    {
+      "sample_file_name": "HY-R022_batch_sample_001.xlsx",
+      "input_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\15_batch_pipeline\\input\\HY-R022_batch_sample_001.xlsx",
+      "output_workbook_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\34_batch_quote_workbooks_v1\\workbooks\\HY-R047_HY-R022_batch_sample_001_quote_workbook_v1.xlsx",
+      "status": "completed",
+      "error_message": "",
+      "generated_at": "2026-06-09 15:16:27",
+      "detail_rows": 300,
+      "review_rows": 11,
+      "fire_default_count": 11,
+      "total_amount": 39293506.93,
+      "category_count": 14,
+      "price_sources": [
+        "simulated_for_test"
+      ],
+      "all_simulated": true
+    },
+    {
+      "sample_file_name": "HY-R022_batch_sample_002.xlsx",
+      "input_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\15_batch_pipeline\\input\\HY-R022_batch_sample_002.xlsx",
+      "output_workbook_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\34_batch_quote_workbooks_v1\\workbooks\\HY-R047_HY-R022_batch_sample_002_quote_workbook_v1.xlsx",
+      "status": "completed",
+      "error_message": "",
+      "generated_at": "2026-06-09 15:16:28",
+      "detail_rows": 300,
+      "review_rows": 11,
+      "fire_default_count": 11,
+      "total_amount": 39293506.93,
+      "category_count": 14,
+      "price_sources": [
+        "simulated_for_test"
+      ],
+      "all_simulated": true
+    },
+    {
+      "sample_file_name": "HY-R022_batch_sample_003.xlsx",
+      "input_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\15_batch_pipeline\\input\\HY-R022_batch_sample_003.xlsx",
+      "output_workbook_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\34_batch_quote_workbooks_v1\\workbooks\\HY-R047_HY-R022_batch_sample_003_quote_workbook_v1.xlsx",
+      "status": "completed",
+      "error_message": "",
+      "generated_at": "2026-06-09 15:16:28",
+      "detail_rows": 300,
+      "review_rows": 11,
+      "fire_default_count": 11,
+      "total_amount": 39293506.93,
+      "category_count": 14,
+      "price_sources": [
+        "simulated_for_test"
+      ],
+      "all_simulated": true
+    }
+  ],
+  "error_message": "",
+  "safety_check": {
+    "project_input_dir_only": true,
+    "desktop_or_downloads_read": false,
+    "real_customer_files_read": false,
+    "hongye_database_read": false,
+    "real_quote_generated": false,
+    "excel_or_folder_opened": false,
+    "git_add_dot_used": false
+  }
+}
