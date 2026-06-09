@@ -1,29 +1,26 @@
 {
-  "round": "HY-R043",
-  "task": "任意 Excel 表头识别增强 V1",
+  "round": "HY-R044",
+  "task": "人工复核清单增强 V1",
   "status": "completed",
   "current_strategy": "single_round_only",
   "auto_loop_enabled": false,
   "auto_guard_enabled": false,
-  "executed_rounds": ["HY-R043"],
-  "not_executed_rounds": ["HY-R044", "HY-R045", "HY-R046", "HY-R047", "HY-R048", "HY-R049", "HY-R050", "HY-R051"],
+  "executed_rounds": ["HY-R044"],
+  "not_executed_rounds": ["HY-R045", "HY-R046", "HY-R047", "HY-R048", "HY-R049", "HY-R050", "HY-R051"],
   "outputs": {
-    "alias_rules": "C:\\Users\\Administrator\\Documents\\宏业软件\\30_header_recognition_v1\\header_alias_rules.json",
-    "recognizer": "C:\\Users\\Administrator\\Documents\\宏业软件\\30_header_recognition_v1\\header_recognizer_v1.py",
-    "result_json": "C:\\Users\\Administrator\\Documents\\宏业软件\\30_header_recognition_v1\\HY-R043_header_recognition_result.json",
-    "result_csv": "C:\\Users\\Administrator\\Documents\\宏业软件\\30_header_recognition_v1\\HY-R043_header_recognition_result.csv",
-    "node_report": "C:\\Users\\Administrator\\Documents\\宏业软件\\04_AI交接\\node_reports\\HY-R043_Header_Recognition_V1_Report.md",
-    "status_json": "C:\\Users\\Administrator\\Documents\\宏业软件\\30_header_recognition_v1\\HY-R043_status.json"
+    "generator": "C:\\Users\\Administrator\\Documents\\宏业软件\\31_review_list_v1\\review_list_generator_v1.py",
+    "review_xlsx": "C:\\Users\\Administrator\\Documents\\宏业软件\\31_review_list_v1\\HY-R044_review_items_v1.xlsx",
+    "review_json": "C:\\Users\\Administrator\\Documents\\宏业软件\\31_review_list_v1\\HY-R044_review_items_v1.json",
+    "review_csv": "C:\\Users\\Administrator\\Documents\\宏业软件\\31_review_list_v1\\HY-R044_review_items_v1.csv",
+    "node_report": "C:\\Users\\Administrator\\Documents\\宏业软件\\04_AI交接\\node_reports\\HY-R044_Manual_Review_List_V1_Report.md",
+    "status_json": "C:\\Users\\Administrator\\Documents\\宏业软件\\31_review_list_v1\\HY-R044_status.json"
   },
   "metrics": {
-    "recognized_files_count": 3,
-    "target_fields_count": 8,
-    "recognized_fields_per_file": {
-      "sample_standard_headers.xlsx": 8,
-      "sample_alias_headers.xlsx": 8,
-      "sample_shuffled_headers.xlsx": 8
-    },
-    "recognition_success_rate": 1.0,
+    "input_rows": 300,
+    "review_items_count": 11,
+    "fire_default_count": 11,
+    "invalid_quantity_count": 0,
+    "price_abnormal_count": 0,
     "self_test_status": "passed"
   },
   "safety": {
@@ -32,6 +29,6 @@
     "real_quote_generated": false,
     "excel_or_folder_opened": false
   },
-  "next_task": "HY-R044 人工复核清单增强 V1",
-  "updated_at": "2026-06-08T14:32:49+08:00"
+  "next_task": "HY-R045 费用汇总页 V1",
+  "updated_at": "2026-06-09T13:38:10+08:00"
 }
