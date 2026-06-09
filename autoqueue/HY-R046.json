@@ -1,25 +1,80 @@
 {
   "task_id": "HY-R046",
-  "task_name": "confirmed quality control V2 run",
-  "round": "HY-R046",
-  "status": "done",
-  "started_at": "2026-06-08 00:08:30",
-  "finished_at": "2026-06-08 00:08:34",
-  "input_files": [],
-  "output_files": [
-    "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R046_quality_control_v2_confirmed_run_report.md"
+  "task_name": "完整报价工作簿 V2",
+  "status": "completed",
+  "platform": "Windows",
+  "generated_at": "2026-06-09 15:00:16",
+  "input_files": [
+    "C:\\Users\\Administrator\\Documents\\宏业软件\\13_pipeline\\output_v2\\HY-R040_pipeline_v2_quote_result.json",
+    "C:\\Users\\Administrator\\Documents\\宏业软件\\31_review_list_v1\\HY-R044_review_items_v1.json",
+    "C:\\Users\\Administrator\\Documents\\宏业软件\\32_cost_summary_v1\\HY-R045_cost_summary_v1.json"
   ],
-  "report_path": "C:\\Users\\Administrator\\Documents\\宏业软件\\23_hongye_autoqueue\\reports\\HY-R046_quality_control_v2_confirmed_run_report.md",
-  "commit_hash": "c9a481d",
-  "push_success": true,
+  "output_files": [
+    "C:\\Users\\Administrator\\Documents\\宏业软件\\33_quote_workbook_v2\\HY-R046_quote_workbook_v2.xlsx",
+    "C:\\Users\\Administrator\\Documents\\宏业软件\\33_quote_workbook_v2\\HY-R046_quote_workbook_v2_report.md",
+    "C:\\Users\\Administrator\\Documents\\宏业软件\\04_AI交接\\node_reports\\HY-R046_Quote_Workbook_V2_Report.md",
+    "C:\\Users\\Administrator\\Documents\\宏业软件\\33_quote_workbook_v2\\HY-R046_status.json",
+    "C:\\Users\\Administrator\\Documents\\宏业软件\\33_quote_workbook_v2\\quote_workbook_v2.py",
+    "C:\\Users\\Administrator\\Documents\\宏业软件\\33_quote_workbook_v2\\test_quote_workbook_v2.py",
+    "C:\\Users\\Administrator\\Documents\\宏业软件\\33_quote_workbook_v2\\HY-R046_self_test_result.json"
+  ],
+  "metrics": {
+    "generated_at": "2026-06-09 15:00:16",
+    "detail_rows": 300,
+    "review_rows": 11,
+    "total_amount": 39293506.93,
+    "category_count": 14,
+    "price_sources": [
+      "simulated_for_test"
+    ],
+    "all_simulated": true,
+    "expected_sheets": [
+      "封面",
+      "编制说明",
+      "分部分项清单",
+      "人工复核清单",
+      "费用汇总",
+      "分类汇总",
+      "异常说明"
+    ],
+    "safety": {
+      "real_customer_files_read": false,
+      "hongye_database_read": false,
+      "real_quote_generated": false,
+      "excel_or_folder_opened": false
+    }
+  },
   "error_message": "",
   "safety_check": {
     "real_customer_files_read": false,
     "hongye_database_read": false,
     "real_quote_generated": false,
-    "git_add_dot_used": false,
-    "force_push_used": false,
-    "infinite_loop": false
+    "excel_or_folder_opened": false,
+    "git_add_dot_used": false
   },
-  "start_commit_hash": "0f4c30e"
+  "self_test_result": "passed",
+  "self_test_checks": {
+    "workbook_exists": true,
+    "sheets": [
+      "封面",
+      "编制说明",
+      "分部分项清单",
+      "人工复核清单",
+      "费用汇总",
+      "分类汇总",
+      "异常说明"
+    ],
+    "expected_sheets": true,
+    "detail_rows": 300,
+    "review_rows": 11,
+    "category_rows": 14,
+    "total_amount": 39293506.93,
+    "price_sources": [
+      "simulated_for_test"
+    ],
+    "status_json_completed": true,
+    "no_auto_open_calls": true,
+    "status": "passed",
+    "error_message": ""
+  }
 }
